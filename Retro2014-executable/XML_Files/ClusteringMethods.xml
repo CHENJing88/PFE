@@ -1,0 +1,17 @@
+<ClusteringMethods>
+	<Method>
+		<Name>BIRCH</Name>
+		<Description>BIRCH (Balanced Iterative Reducing and Clustering using Hierarchies) is an algorithm initially
+ 		developped in order to raise the effectiveness of hierarchical algorithms on large databases.
+		</Description>
+		<Path>.\Plugins\Clustering\BIRCHClusteringPlugin.dll</Path>
+	</Method>
+	<Method>
+		<Name>Partitioning Around Medoids</Name>
+		<Description>Partitioning Around Medoids method is based on the k-mean operation. The difference it's we no longer calculate the distance relative to the centroid but 
+		relative to an element (this wich is the most representative of the cluster).
+		The inconvenient of this method, it's th user has to indicate the number of clusters to found but it is a method wich is efficient on small databases.
+		</Description>
+		<Path>.\Plugins\Clustering\KMedoidClusteringPlugin.dll</Path>
+	</Method>
+</ClusteringMethods>

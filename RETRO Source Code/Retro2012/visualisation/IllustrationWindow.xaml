@@ -1,0 +1,55 @@
+﻿<Window x:Class="RetroGUI.visualisation.IllustrationWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:System="clr-namespace:System;assembly=mscorlib"
+    Title="Illustration Navigation" 
+    Height="700" Width="800"
+    MinHeight="700" MinWidth="580"
+    Background="#E9ECFA" >
+
+        <Window.Resources>
+
+            <!-- Original image dimensions -->
+            <!-- DEFAULT VALUES regarding window dimensions, updated during runtime -->
+            <System:Double x:Key="originalWidth">467</System:Double>
+            <System:Double x:Key="originalHeight">725</System:Double>
+
+        </Window.Resources>
+
+        <Grid Name="LayoutRoot">
+
+            <!-- Grid column/row definition-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="40" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="40" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+
+            <!-- Image -->
+            <ScrollViewer Name="Page_scrollViewer" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Grid.Column="1" Grid.Row="1">
+                <Image Name="IllustrationWindow_Image" MouseWheel="IllustrationWindow_Image_MouseWheel" 
+                   Width="{DynamicResource originalWidth}" Height="{DynamicResource originalHeight}">
+                    <Image.LayoutTransform>
+                        <ScaleTransform
+                              ScaleX="{Binding Path=Value, ElementName=IllustrationWindow_zoomSlider}"
+                              ScaleY="{Binding Path=Value, ElementName=IllustrationWindow_zoomSlider}"/>
+                    </Image.LayoutTransform>
+                </Image>
+            </ScrollViewer>
+
+            <!-- Surrouding controls -->
+            <Label Name="IllustrationWindow_ImagenameLabel" Grid.Row="0" Grid.Column="1" FontWeight="ExtraBold" HorizontalAlignment="Center" />
+
+            <Button Margin="5,0,5,0" Click="IllustrationWindow_PreviousButton" Grid.Row="1" Grid.Column="0">&lt;&lt;</Button>
+            <Button HorizontalAlignment="Right" Margin="5,0,5,0" Click="IllustrationWindow_NextButton" Grid.Row="1" Grid.Column="2">&gt;&gt;</Button>
+
+            <Slider Grid.Row="2" Grid.Column="1" Name="IllustrationWindow_zoomSlider" Minimum="0.1" Maximum="5"  Ticks="0.1,0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5" TickFrequency="0.5" SmallChange="0.5" LargeChange="0.5" Value="1"
+            TickPlacement="BottomRight" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="1" IsSnapToTickEnabled="True" Margin="0,10,178,0" />
+        </Grid>
+    </Window>
+

@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AltoReaderPlugin</name>
+    </assembly>
+    <members>
+        <member name="T:Polytech.Clustering.Plugin.AGRConfig">
+            <summary>
+            To store the parameters of the Plugin 
+            </summary>        
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.AGRConfig.#ctor(System.String,System.String)">
+            <summary>
+            Constructor
+            </summary>        
+            To decide which EoC to extract as patterns to cluster 
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.AGRConfig.GetSchema">
+            <summary>
+            XML checker
+            </summary>       
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.AGRConfig.DeserializeFromXml(System.String)">
+            <summary>
+            Get the parameters from file
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.AGRConfig.SerializeToXml(System.String)">
+            <summary>
+            Save Parameters to file
+            </summary>
+        </member>
+        <member name="P:Polytech.Clustering.Plugin.AGRConfig.ElementTag">
+            <summary>
+            Element to consider in Alto Xml files
+            </summary>
+        </member>
+        <member name="P:Polytech.Clustering.Plugin.AGRConfig.StyleRefTag">
+            <summary>
+            StyleRef to consider in Alto Xml files
+            </summary>
+        </member>
+        <member name="T:Polytech.Clustering.Plugin.AltoGenericReaderPlugin">
+            <summary>
+            Alto Generic Reader Plugin 
+            </summary>    
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.AltoGenericReaderPlugin.m_database">
+            <summary>
+            Database of documentsSafe containing Patterns to cluster
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.AltoGenericReaderPlugin.m_config">
+            <summary>
+            Class that embbed the configuration of this plugin
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.AltoGenericReaderPlugin.LoadDatabase(System.Collections.Generic.List{Polytech.Clustering.Plugin.IDescriptorPlugin},System.String,System.Windows.Forms.Form,System.Delegate)">
+            <summary>
+            Load the database in memory
+            </summary>        
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.AltoGenericReaderPlugin.#ctor(System.String,System.String)">
+            <summary>
+            Constructor for the Main Class of the Plugin 
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.AltoGenericReaderPlugin.GetProcessingTime">
+            <summary>
+            Loading Time management
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.AltoGenericReaderPlugin.GetLoadedDatabase">
+            <summary>
+            To get the loaded database
+            </summary>       
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.AltoGenericReaderPlugin.GetAuthor">
+            <summary>
+            To get the author of the plugin
+            </summary>        
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.AltoGenericReaderPlugin.Polytech#Clustering#Plugin#IDocumentReaderPlugin#GetConfigWindow">
+            <summary>
+            Form to configure the plugin
+            </summary>       
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.AltoGenericReaderPlugin.GetConfig">
+            <summary>
+            Class that embbed the configuration of this plugin
+            </summary>        
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.AltoGenericReaderPlugin.GetName">
+            <summary>
+            Get the name of this plugin
+            </summary>        
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.AltoGenericReaderPlugin.LoadDatabase(System.Collections.Generic.List{Polytech.Clustering.Plugin.IDescriptorPlugin},System.String)">
+            <summary>
+            Not implemented yet
+            </summary>        
+        </member>
+    </members>
+</doc>

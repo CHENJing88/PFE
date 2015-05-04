@@ -1,0 +1,5 @@
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Retro2012\bin\Debug\Clustering.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Retro2012\bin\Debug\Clustering.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Clustering\obj\Debug\TestModule.csprojResolveAssemblyReference.cache
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Clustering\obj\Debug\Clustering.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Clustering\obj\Debug\Clustering.pdb

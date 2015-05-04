@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="RetroGUI.main.PropertyGridControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        
+        <ScrollViewer x:Name="propertyGridScrollBar" Grid.Row="0" CanContentScroll="False" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+            <ScrollViewer.Content>
+                <StackPanel x:Name="PropertyPanel"/>
+                <!--PropertyItems go in here-->
+            </ScrollViewer.Content>
+        </ScrollViewer>
+        <TextBlock x:Name="descriptionTextBlock" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Center" TextAlignment="Center"/>
+    </Grid>
+</UserControl>

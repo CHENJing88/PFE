@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="RetroGUI.clustering.ClusteringPanel"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Height="383" Width="580">
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="77*" />
+            <RowDefinition Height="102*"/>
+            <RowDefinition Height="126*"/>
+            <RowDefinition Height="78*"/>
+            <!--<<< Will resize taking all remaining space -->
+        </Grid.RowDefinitions>
+        <!-- Existing Models -->
+        <Label Height="30" Grid.Row="0" HorizontalAlignment="Left" Margin="46,20,0,0" Name="label2" VerticalAlignment="Top" Width="150">Existing Models Directory :</Label>
+        <TextBox Height="30" Grid.Row="0" Margin="197,20,80,0" Name="ExistingModelsDirectoryTextBox" VerticalAlignment="Top" />
+        <Button Height="30" Grid.Row="0" HorizontalAlignment="Right" Margin="0,20,45,0" Name="ExistingModelsDirectoryButton" VerticalAlignment="Top" Width="30" Click="Click_Browse_Folder">...</Button>
+
+        <!-- Template Matching -->
+
+        <!-- Illustration option -->
+        <CheckBox HorizontalAlignment="Left" Margin="46,0,0,30" Name="Illustration_CheckBox" Width="160" Checked="Illustration_CheckBox_Changed" Unchecked="Illustration_CheckBox_Changed" Height="20" VerticalAlignment="Bottom" Grid.Row="3">ILLUSTRATION</CheckBox>
+
+        <!-- Start -->
+        <Button Margin="0,0,45,30" Click="Click_Start" Height="25" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="271" Grid.Row="3">Start Clustering Process</Button>
+        <GroupBox Header="Clustering Method"  HorizontalAlignment="Left" Margin="46,10,0,0" VerticalAlignment="Top" Height="75" Width="474" Grid.Row="1">
+            <Image Name="imageInformationClusteringMethod" Margin="269,18,0,10" Source="/resources/linformationIconeMedium.png" HorizontalAlignment="Left" Width="20" Height="20">
+                <Image.ToolTip>
+                    <ToolTip Name="toolTipDescriptionClusteringMethod"></ToolTip>
+                </Image.ToolTip>
+            </Image>
+        </GroupBox>
+        <ComboBox Name="comboBoxSelectClusteringMethod" HorizontalAlignment="Left" Margin="60,46,0,0" VerticalAlignment="Top" Width="240" SelectionChanged="comboBoxSelectClusteringMethod_SelectionChanged" SelectedItem="" Grid.Row="1" Height="22"/>
+        <GroupBox Header="Descriptor" HorizontalAlignment="Left" Margin="46,10,0,0" VerticalAlignment="Top" Width="474" Height="105" Grid.Row="2">
+            <Image Name="imageInformationDescriptorMethod" Margin="269,21,0,0" Source="/resources/linformationIconeMedium.png" HorizontalAlignment="Left" Width="20" Height="20" VerticalAlignment="Top">
+                <Image.ToolTip>
+                    <ToolTip Name="toolTipDescriptionDescriptor"></ToolTip>
+                </Image.ToolTip>
+            </Image>
+        </GroupBox>
+        <ComboBox Name="comboBoxSelectDescriptor" HorizontalAlignment="Left" Margin="60,48,0,0" VerticalAlignment="Top" Width="240" Grid.Row="2" Height="22" SelectionChanged="comboBoxSelectDescriptor_SelectionChanged">
+
+        </ComboBox>
+
+
+    </Grid>
+</UserControl>

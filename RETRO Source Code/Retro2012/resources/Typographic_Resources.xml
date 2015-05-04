@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  RETRO 2012 - v2.3
+  
+  PaRADIIT Project
+  https://sites.google.com/site/paradiitproject/
+  
+  This software is provided under LGPL v.3 license, 
+  which exact definition can be found at the following link:
+  http://www.gnu.org/licenses/lgpl.html
+  
+  Please, contact us for any offers, remarks, ideas, etc.
+  
+  Copyright © RFAI, LI Tours, 2011-2012
+  Contacts : rayar@univ-tours.fr
+             ramel@univ-tours.fr
+-->
+
+<Typography>
+
+  <Types>
+	<!-- Text type	-->
+    <Type Name="Text" Code="TE" >
+      <BodyHeight EnglishName="Pearl" FrenchName="Parisienne" Code="PEA" />
+      <BodyHeight EnglishName="Nonpareil" FrenchName="Nonpareille" Code="NPA" />
+      <BodyHeight EnglishName="Minion" FrenchName="Mignonne" Code="MIN" />
+	    <BodyHeight EnglishName="Brevier" FrenchName="Petit-texte" Code="BRV" />
+	    <BodyHeight EnglishName="Bourgeois" FrenchName="Gaillarde" Code="BRG" />
+	    <BodyHeight EnglishName="Long Primer" FrenchName="Petit-romain" Code="LPR" />
+	    <BodyHeight EnglishName="Small Pica" FrenchName="Philosophie" Code="SMP" />
+	    <BodyHeight EnglishName="Pica" FrenchName="Cicéro" Code="PIC" />
+	    <BodyHeight EnglishName="English" FrenchName="Saint-Augustin" Code="ENG" />
+	    <BodyHeight EnglishName="Large English" FrenchName="Gros-texte" Code="LEN" />
+	    <BodyHeight EnglishName="Great Primer" FrenchName="Gros-romain" Code="GPR" />
+	    <BodyHeight EnglishName="Paragon" FrenchName="Petit-parangon" Code="PAR" />
+	    <BodyHeight EnglishName="Double Pica" FrenchName="Gros-parangon" Code="DBP" />
+	    <BodyHeight EnglishName="Two-line Pica" FrenchName="Palestine" Code="02P" />
+	    <BodyHeight EnglishName="Two-line English" FrenchName="Petit-canon" Code="2LE" />
+      <BodyHeight EnglishName="Two-line Great Primer" FrenchName="Trismégiste" Code="2LG" />
+	    <BodyHeight EnglishName="Two-line Double Pica" FrenchName="Gros-canon" Code="2LD" />
+	    <BodyHeight EnglishName="Canon" FrenchName="Double-canon" Code="CAN" />
+	    <BodyHeight EnglishName="Five-line Pica" FrenchName="" Code="05P" />
+	    <BodyHeight EnglishName="Six-Line Pica" FrenchName="Triple-canon" Code="06P" />
+	    <BodyHeight EnglishName="Seven-line Pica" FrenchName="Grosse-nonpareille" Code="07P" />
+	    <BodyHeight EnglishName="Eight-line Pica" FrenchName="" Code="08P" />
+	    <BodyHeight EnglishName="Nine-Line Pica" FrenchName="" Code="09P" />
+	    <BodyHeight EnglishName="Ten-Line Pica" FrenchName="" Code="10P" />
+	    <BodyHeight EnglishName="Eleven-Line Pica" FrenchName="" Code="11P" />
+	    <BodyHeight EnglishName="Twelve-Line Pica" FrenchName="" Code="12P" />
+    </Type>
+	
+	<!-- Titling type -->
+    <Type Name="Titling" Code="TI" >
+      <BodyHeight EnglishName="Two-line Pearl" FrenchName="Deux points de Parisienne" Code="2PE" />
+      <BodyHeight EnglishName="Two-line Nonpareil" FrenchName="Deux points de Nonpareille" Code="2NP" />
+      <BodyHeight EnglishName="Two-line Minion" FrenchName="Deux points de Mignonne" Code="2MI" />
+	    <BodyHeight EnglishName="Two-line Brevier" FrenchName="Deux points de Petit-texte" Code="2BR" />
+	    <BodyHeight EnglishName="Two-line Bourgeois" FrenchName="Deux points de Gaillarde" Code="2BO" />
+	    <BodyHeight EnglishName="Two-line Long Primer" FrenchName="Deux points de Petit-romain" Code="2LP" />
+	    <BodyHeight EnglishName="Two-line Small Pica" FrenchName="Deux points de Philosophie" Code="2SP" />
+	    <BodyHeight EnglishName="Two-line Pica" FrenchName="Deux points de Cicéro" Code="02P" />
+	    <BodyHeight EnglishName="Two-line English" FrenchName="Deux points de Saint-Augustin" Code="2LE" />
+	    <BodyHeight EnglishName="Two-line Great Primer" FrenchName="Deux points de Gros-romain" Code="2LG" />
+	    <BodyHeight EnglishName="Two-line Double Pica" FrenchName="Deux points de Gros-parangon" Code="2LD" />
+	    <BodyHeight EnglishName="Four-line Pica" FrenchName="Deux points de Petit-canon" Code="04P" />
+	    <BodyHeight EnglishName="Five-line Pica" FrenchName="Deux points de Gros-canon" Code="05P" />
+	    <BodyHeight EnglishName="Six-Line Pica" FrenchName="" Code="06P" />
+	    <BodyHeight EnglishName="Seven-line Pica" FrenchName="" Code="07P" />
+	    <BodyHeight EnglishName="Eight-line Pica" FrenchName="" Code="08P" />
+	    <BodyHeight EnglishName="Ten-Line Pica" FrenchName="" Code="10P" />
+	    <BodyHeight EnglishName="Eleven-Line Pica" FrenchName="" Code="11P" />
+	    <BodyHeight EnglishName="Thirteen-Line Pica" FrenchName="" Code="13P" /> 
+	    <BodyHeight EnglishName="Fifteen-Line Pica" FrenchName="" Code="15P" />   
+	</Type>  
+  </Types> 
+
+  <Alphabets>
+    <!-- Latin -->
+    <Alphabet Name="Latin" Code="L">
+      <Families>
+	    <!-- Roman -->
+        <Family Name="Roman" Code="R">
+          <Subfamily Name="Jenson" Code="JE" />
+          <Subfamily Name="Bembo" Code="BE" />
+          <Subfamily Name="Old-face" Code="OF" />
+        </Family>
+        <!-- Italic -->
+        <Family Name="Italic" Code="I">
+          <Subfamily Name="Aldine" Code="AL" />
+          <Subfamily Name="Old-face" Code="OF" />
+		  <Subfamily Name="Chancery" Code="CH" />
+        </Family>
+		<!-- Gothic -->
+        <Family Name="Gothic" Code="G">
+          <Subfamily Name="Textura" Code="TE" />
+		  <Subfamily Name="Rotunda" Code="RO" />
+		  <Subfamily Name="Bâtarde" Code="BA" />
+		  <Subfamily Name="Fraktur" Code="FR" />
+          <Subfamily Name="Civilité letter" Code="CL" />
+        </Family>
+      </Families>
+    </Alphabet>
+	
+	 <!-- Other -->
+    <Alphabet Name="Other"  Code="O" />
+  </Alphabets>
+
+</Typography>

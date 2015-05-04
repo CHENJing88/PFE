@@ -1,0 +1,30 @@
+﻿<Window x:Class="RetroUtil.DynamicSplashScreen"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Processing" Width="300" Height="200"
+    x:Name="RetroDynamicSplashScreen">
+    
+  <Border BorderThickness="1" BorderBrush="Black">
+    <Grid >
+      <Rectangle>
+        <Rectangle.Fill>
+          <LinearGradientBrush EndPoint="0,0" StartPoint="0.5,1.3">
+            <!--<GradientStop Color="#FF07254E" Offset="1"/>-->
+              <GradientStop Color="SteelBlue" Offset="1"/>
+            <GradientStop Color="LightSteelBlue" Offset="0.369"/>
+            <GradientStop Color="White"/>
+          </LinearGradientBrush>
+        </Rectangle.Fill>
+      </Rectangle>
+
+      <TextBlock  FontFamily="Arial" FontWeight="Bold" FontSize="30" TextAlignment="Center"  Margin="5,10,5,0" Height="92" VerticalAlignment="Top">
+        <Run Name="Process1" Text="" Foreground="SteelBlue" />
+        <LineBreak/>
+        <Run Name="Process2" Text="" Foreground="SteelBlue"/>
+      </TextBlock>
+
+      <TextBlock Name="DynamicSplashScreenMessage" FontSize="18"
+       VerticalAlignment="Bottom"  Margin="10,0,10,10" Height="60" />
+    </Grid>
+  </Border>
+</Window>

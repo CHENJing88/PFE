@@ -1,0 +1,9 @@
+F:\workspace\visual\clusteringIHM\ClassLibrary1\bin\Release\DescriptorPlugin.dll
+F:\workspace\visual\clusteringIHM\ClassLibrary1\bin\Release\DescriptorPlugin.pdb
+F:\workspace\visual\clusteringIHM\ClassLibrary1\obj\Release\DescriptorPlugin.dll
+F:\workspace\visual\clusteringIHM\ClassLibrary1\obj\Release\DescriptorPlugin.pdb
+F:\workspace\visual\Clustering\DescriptorPlugin\bin\Release\DescriptorPlugin.dll
+F:\workspace\visual\Clustering\DescriptorPlugin\bin\Release\DescriptorPlugin.pdb
+F:\workspace\visual\Clustering\DescriptorPlugin\obj\Release\DescriptorPlugin.csprojResolveAssemblyReference.cache
+F:\workspace\visual\Clustering\DescriptorPlugin\obj\Release\DescriptorPlugin.dll
+F:\workspace\visual\Clustering\DescriptorPlugin\obj\Release\DescriptorPlugin.pdb

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ZernikeDescriptorPlugin</name>
+    </assembly>
+    <members>
+        <member name="F:Polytech.Clustering.Plugin.ZernikeConfig.m_maxOrder">
+            <summary>
+            Nombre maximum de CFEntries pouvant être contenues dans un noeud non feuille
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.ZernikeConfig.m_squareHeight">
+            <summary>
+            Maximum de CFENtries pouvant être contenues dans un noeud feuille
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.ZernikeConfig.m_squareWidth">
+            <summary>
+            Seuil à appliquer pour la fusion des CFEntries
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ZernikeDescriptorPlugin.CalculateSignature(Polytech.Clustering.Plugin.APattern)">
+            <summary>
+            Calcule la signature à partir du pattern fourni en paramètre
+            Prérequis : le pattern doit être de type Image !
+            </summary>
+            <param name="toModify">Le pattern concerné par le calcul</param>
+        </member>
+        <member name="T:Polytech.Clustering.Plugin.ZernikeCalculator">
+            <summary>
+            Classe offrant des méthodes permettant de calculer les différents moments de Zernike associés à une image
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ZernikeCalculator.RadialFunction(System.Double,System.Int32,System.Int32)">
+            <summary>
+            Calculates Radial function value for a pixel
+            
+             Input :
+             Radius of pixel from orgin
+             order n
+             repititon m
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ZernikeCalculator.OrderN(System.Int32,Polytech.Clustering.Plugin.ZernikeSignature,System.Drawing.Bitmap)">
+            <summary>
+            Calcul du moment d'ordre n
+            </summary>
+            <param name="n"></param>
+            <param name="zernikeSign"></param>
+            <param name="img">Image 8bits à traiter</param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ZernikeCalculator.CalculateFeatures(System.Drawing.Bitmap,System.Int32)">
+            <summary>
+            Calcul les moments de Zernike pour les "order" premiers ordres
+            </summary>
+            <param name="img">L'image concernée par le calcul</param>
+            <param name="order">Ordre maximale</param>
+            <returns></returns>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.ZernikeSignature.m_moments">
+            <summary>
+            Liste de nombres complexes correspondant aux moments de zernke calculés
+            </summary>
+        </member>
+    </members>
+</doc>

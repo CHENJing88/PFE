@@ -1,0 +1,33 @@
+F:\workspace\visual\Clustering\DirectionnalDescriptorPlugin\obj\Release\DirectionnalDescriptorPlugin.csprojResolveAssemblyReference.cache
+F:\workspace\visual\Clustering\DirectionnalDescriptorPlugin\obj\Release\Polytech.Clustering.Plugin.DirectionalDescriptorPlugin.resources
+F:\workspace\visual\Clustering\DirectionnalDescriptorPlugin\obj\Release\Polytech.Clustering.Plugin.Properties.Resources.resources
+F:\workspace\visual\Clustering\DirectionnalDescriptorPlugin\obj\Release\DirectionnalDescriptorPlugin.csproj.GenerateResource.Cache
+F:\workspace\visual\Clustering\DirectionnalDescriptorPlugin\bin\Release\DirectionalDescriptorPlugin.dll
+F:\workspace\visual\Clustering\DirectionnalDescriptorPlugin\bin\Release\DirectionalDescriptorPlugin.pdb
+F:\workspace\visual\Clustering\DirectionnalDescriptorPlugin\bin\Release\AForge.dll
+F:\workspace\visual\Clustering\DirectionnalDescriptorPlugin\bin\Release\AForge.Imaging.dll
+F:\workspace\visual\Clustering\DirectionnalDescriptorPlugin\bin\Release\Plugin.dll
+F:\workspace\visual\Clustering\DirectionnalDescriptorPlugin\bin\Release\AForge.Math.dll
+F:\workspace\visual\Clustering\DirectionnalDescriptorPlugin\bin\Release\Plugin.pdb
+F:\workspace\visual\Clustering\DirectionnalDescriptorPlugin\bin\Release\AForge.xml
+F:\workspace\visual\Clustering\DirectionnalDescriptorPlugin\bin\Release\AForge.Imaging.xml
+F:\workspace\visual\Clustering\DirectionnalDescriptorPlugin\bin\Release\AForge.Math.xml
+F:\workspace\visual\Clustering\DirectionnalDescriptorPlugin\obj\Release\DirectionalDescriptorPlugin.dll
+F:\workspace\visual\Clustering\DirectionnalDescriptorPlugin\obj\Release\DirectionalDescriptorPlugin.pdb
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\DirectionnalDescriptorPlugin\bin\Release\DirectionalDescriptorPlugin.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\DirectionnalDescriptorPlugin\bin\Release\DirectionalDescriptorPlugin.pdb
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\DirectionnalDescriptorPlugin\bin\Release\AForge.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\DirectionnalDescriptorPlugin\bin\Release\AForge.Imaging.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\DirectionnalDescriptorPlugin\bin\Release\Plugin.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\DirectionnalDescriptorPlugin\bin\Release\AForge.Math.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\DirectionnalDescriptorPlugin\bin\Release\AForge.xml
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\DirectionnalDescriptorPlugin\bin\Release\AForge.Imaging.xml
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\DirectionnalDescriptorPlugin\bin\Release\Plugin.pdb
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\DirectionnalDescriptorPlugin\bin\Release\Plugin.xml
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\DirectionnalDescriptorPlugin\bin\Release\AForge.Math.xml
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\DirectionnalDescriptorPlugin\obj\Release\DirectionnalDescriptorPlugin.csprojResolveAssemblyReference.cache
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\DirectionnalDescriptorPlugin\obj\Release\Polytech.Clustering.Plugin.DirectionalDescriptorPlugin.resources
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\DirectionnalDescriptorPlugin\obj\Release\Polytech.Clustering.Plugin.Properties.Resources.resources
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\DirectionnalDescriptorPlugin\obj\Release\DirectionnalDescriptorPlugin.csproj.GenerateResource.Cache
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\DirectionnalDescriptorPlugin\obj\Release\DirectionalDescriptorPlugin.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\DirectionnalDescriptorPlugin\obj\Release\DirectionalDescriptorPlugin.pdb

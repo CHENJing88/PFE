@@ -1,0 +1,64 @@
+﻿<UserControl x:Class="RetroGUI.visualisation.InformationClusterWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d"
+             >
+    <Viewbox StretchDirection="Both">
+        <Grid HorizontalAlignment="Left" Width="540.863" Height="395.441">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="45"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Label Name="labelCluster" Content="CLUSTER" FontWeight="Bold" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="160,14.5,0,13.5" Height="25" Width="66"/>
+            <Label Name="labelInformations" Content="INFORMATIONS" FontWeight="Bold" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="26" Margin="38.5,10,60.5,10" Width="101" />
+            <Image Name="imageClusterRepresentative" Grid.Row="1" Grid.Column="0" Height="70" Margin="18,10,0,0" Width="67"  VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <Label x:Name="labelTextClusterno" Height="30" Width="75" Margin="18,110,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Cluster No :" Grid.Row="1" Grid.Column="0" />
+            <Label x:Name="labelClusterno" Height="30" Width="65" Margin="112.97,110,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Content="NN" Grid.Row="1" Grid.Column="0" />
+            <Label x:Name="labelTextNbshapes" Height="30" Width="75" Margin="18,145,0,-17" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Nb Shapes :" Grid.Row="1" Grid.Column="0"/>
+            <Label x:Name="labelNbshapes" Height="30" Width="65" Margin="112.97,145,0,-18" HorizontalAlignment="Left" VerticalAlignment="Top" Content="XX" Grid.Row="1" Grid.Column="0"/>
+            <Label x:Name="labelTextLabel" Height="30" Width="75" Margin="18,180,0,-50" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Label :" Grid.Row="1" Grid.Column="0"/>
+            <TextBox x:Name="textBoxLabel" Height="30" Width="46" Margin="112.97,180,0,-51" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1" Grid.Column="0" />
+            <ListBox x:Name="listBoxShapeCluster" Background="#E9ECFA" SelectionMode="Single" Margin="59,10,-78,-172.441" Grid.Row="1" Grid.Column="1" ScrollViewer.VerticalScrollBarVisibility="Visible" MaxHeight="320" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled" >
+                <ListBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Columns="2" />
+                    </ItemsPanelTemplate>
+                </ListBox.ItemsPanel>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Border BorderBrush="LightSteelBlue" Margin="3" BorderThickness="1" CornerRadius="3">
+                            <Border.BitmapEffect>
+                                <DropShadowBitmapEffect Color="Black" Direction="315" ShadowDepth="5" Softness="0.25" Opacity="0.5"/>
+                            </Border.BitmapEffect>
+
+                            <Image Height="75" Width="75" >
+                                <Image.Source>
+                                    <!--Binding Path="ShapePath"-->
+                                    <Binding Path="PathToFullImage">
+                                        <Binding.FallbackValue>
+                                            <ImageSource>/resources/logoLI.png</ImageSource>
+                                        </Binding.FallbackValue>
+                                    </Binding>
+                                </Image.Source>
+
+                                <Image.ToolTip>
+                                    <ToolTip Content="{Binding}" />
+                                </Image.ToolTip>
+                            </Image>
+
+                        </Border>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <Rectangle Grid.Column="1" HorizontalAlignment="Left" Height="395.441" Margin="23,0,0,-184.441" Stroke="DarkGray" VerticalAlignment="Top" Width="1" Grid.RowSpan="2"/>
+            <!--<GridSplitter Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="24,260,0,-204" Grid.Row="1" VerticalAlignment="Top" Width="5" />-->
+        </Grid>
+    </Viewbox>
+</UserControl>

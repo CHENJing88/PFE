@@ -1,0 +1,76 @@
+﻿<Window x:Class="RetroGUI.visualisation.PageWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:System="clr-namespace:System;assembly=mscorlib"
+    Title="Page Visualization" 
+    Height="700" Width="800"
+    MinHeight="700" MinWidth="580"   
+    Background="#E9ECFA" >
+
+  <Window.Resources>
+    
+    <!-- EoC ContextMenu -->
+    <ContextMenu x:Key="TextEoCContextMenu">
+      <MenuItem Header="Open EoC MetaData" Click="OpenEoCMetaData_Click" />
+      <MenuItem Header="Copy Text Image in Clipboard" Click="CopyEoCImageInClipboard_Click" />
+      <MenuItem Header="Save Text Image" Click="SaveEoCImage_Click" />
+      <MenuItem Header="Copy Text Transcription" Click="CopyTextEoCTranscriptionInClipboard_Click" />
+      <MenuItem Header="Save as FontModel"  Click="SaveAsFontModel_Click" IsEnabled="False" />
+      <MenuItem Header="Open EoC English Transcription (Not implemented)" IsEnabled="False" />
+      <MenuItem Header="Read EoC Audio Transcription (Not implemented)" IsEnabled="False"/>
+      <MenuItem Header="Annotate EoC (Not implemented)" IsEnabled="False"/>
+    </ContextMenu>
+
+    <!-- EoC ContextMenu -->
+    <ContextMenu x:Key="IllustrationtEoCContextMenu">
+      <MenuItem Header="Open Illustration MetaData" Click="OpenEoCMetaData_Click" />
+      <MenuItem Header="Copy Illustration Image in Clipboard" Click="CopyEoCImageInClipboard_Click" />
+      <MenuItem Header="Save Illustration Image" Click="SaveEoCImage_Click" />
+    </ContextMenu>
+    
+  </Window.Resources>
+
+  
+  <Grid Name="LayoutRoot">
+
+    <!-- Grid column/row definition-->
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="40" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="40" />
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="30"/>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="40"/>
+    </Grid.RowDefinitions>
+
+    <!-- Image -->
+    <ScrollViewer Name="Page_scrollViewer" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Grid.Column="1" Grid.Row="1">
+      <Grid MouseWheel="Page_EoC_MouseWheel">
+        <Image Name="Page_Image" MouseRightButtonDown="Page_EoC_MouseRightButtonDown" >
+          <Image.LayoutTransform>
+            <ScaleTransform ScaleX="{Binding Path=Value, ElementName=PageWindow_zoomSlider}"
+                            ScaleY="{Binding Path=Value, ElementName=PageWindow_zoomSlider}"/>
+          </Image.LayoutTransform>
+        </Image>
+      </Grid>
+    </ScrollViewer>
+
+    <!-- Surrouding controls -->
+    <Button Name="PageWindow_openButton" Width="40" Margin="39,3,0,2" HorizontalAlignment="Left" Grid.ColumnSpan="2" Click="PageWindow_Button_Open_Click">...</Button>
+    <Label Name="pageLabel" Grid.Row="0" Grid.Column="1" FontWeight="ExtraBold" HorizontalAlignment="Center">Click the [...] button to select an alto xml file.</Label>
+
+    <Button Margin="5,0,5,0" Name="pagePreviousButton" Grid.Row="1" Grid.Column="0" Click="Click_Previous_Page" >&lt;&lt;</Button>
+    <Button HorizontalAlignment="Right" Margin="5,0,5,0" Name="pageNextButton" Grid.Row="1" Grid.Column="2" Click="Click_Next_Page">&gt;&gt;</Button>
+
+    <Slider Grid.Row="2" Grid.Column="1" Name="PageWindow_zoomSlider" Minimum="0.1" Maximum="5"  Ticks="0.1,0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5" TickFrequency="0.5" SmallChange="0.5" LargeChange="0.5" Value="1"
+            TickPlacement="BottomRight" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="1" IsSnapToTickEnabled="True" Margin="0,9,128,1" Width="300" HorizontalAlignment="Right" />
+    <ComboBox Grid.Row="2" Grid.Column="1" Name="Page_comboBox" Height="30" SelectionChanged="Page_EoC_Granularity_SelectionChanged" IsSynchronizedWithCurrentItem="True" HorizontalContentAlignment="Center" HorizontalAlignment="Right" Margin="0,2.5" Width="120">
+      <ComboBoxItem Name="Page_comboBoxItem_1">TextBlock</ComboBoxItem>
+      <ComboBoxItem Name="Page_comboBoxItem_2" IsSelected="True">TextLine</ComboBoxItem>
+      <ComboBoxItem Name="Page_comboBoxItem_3">String</ComboBoxItem>
+    </ComboBox>
+
+  </Grid>
+</Window>

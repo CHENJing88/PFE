@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DescriptorPlugin</name>
+    </assembly>
+    <members>
+        <member name="M:Polytech.Clustering.Plugin.IDescriptorPlugin.CalculateSignatures">
+            <summary>
+            Permet de calculer les signatures de la liste de formes associée au plugin
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IDescriptorPlugin.GetInfoList">
+            <summary>
+            Renvoie sous formes de string les informations relatives au descripteur (par exemple, sa configuration)
+            </summary>
+            <returns>Une liste de chaînes de caractères représentant toutes les informations relatives au descripteur</returns>
+        </member>
+    </members>
+</doc>

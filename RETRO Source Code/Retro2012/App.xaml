@@ -1,0 +1,10 @@
+﻿<Application x:Class="Retro_GUI.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    StartupUri="main/MainWindow.xaml">
+    <Application.Resources>
+        <!--<ResourceDictionary Source="/ReuxablesLegacy;component/mercury.xaml" />-->
+        <!-- Differents styles are available : mercury, edge, candy, frog, inc, metal and sleek.
+        To apply them change the name of the xaml file in the line up-->
+     </Application.Resources>
+</Application>

@@ -1,0 +1,49 @@
+F:\workspace\visual\Clustering\ClassLibrary1\bin\Release\ClassLibrary1.dll
+F:\workspace\visual\Clustering\ClassLibrary1\bin\Release\ClassLibrary1.pdb
+F:\workspace\visual\Clustering\ClassLibrary1\obj\Release\ClassLibrary1.dll
+F:\workspace\visual\Clustering\ClassLibrary1\obj\Release\ClassLibrary1.pdb
+F:\workspace\visual\Clustering\Plugin\bin\Release\Plugin.dll
+F:\workspace\visual\Clustering\Plugin\bin\Release\Plugin.pdb
+F:\workspace\visual\Clustering\Plugin\bin\Release\AForge.Imaging.dll
+F:\workspace\visual\Clustering\Plugin\bin\Release\AForge.dll
+F:\workspace\visual\Clustering\Plugin\bin\Release\AForge.Math.dll
+F:\workspace\visual\Clustering\Plugin\bin\Release\AForge.Imaging.xml
+F:\workspace\visual\Clustering\Plugin\bin\Release\AForge.xml
+F:\workspace\visual\Clustering\Plugin\bin\Release\AForge.Math.xml
+F:\workspace\visual\Clustering\Plugin\obj\Release\Plugin.dll
+F:\workspace\visual\Clustering\Plugin\obj\Release\Plugin.pdb
+F:\workspace\visual\Clustering\Plugin\obj\Release\Plugin.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Dropbox\DI5\PFE\PFE2012_2013\CopieCodeLudo\Clustering\Plugin\bin\Release\Plugin.dll
+C:\Users\Samantha\Dropbox\DI5\PFE\PFE2012_2013\CopieCodeLudo\Clustering\Plugin\bin\Release\Plugin.pdb
+C:\Users\Samantha\Dropbox\DI5\PFE\PFE2012_2013\CopieCodeLudo\Clustering\Plugin\obj\Release\Plugin.dll
+C:\Users\Samantha\Dropbox\DI5\PFE\PFE2012_2013\CopieCodeLudo\Clustering\Plugin\obj\Release\Plugin.pdb
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Release\Plugin.dll
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Release\Plugin.pdb
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\obj\Release\Plugin.dll
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\obj\Release\Plugin.pdb
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Release\Plugin.dll
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Release\Plugin.pdb
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\obj\Release\Plugin.dll
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\obj\Release\Plugin.pdb
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Release\Plugin.dll
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Release\Plugin.pdb
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\obj\Release\Plugin.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\obj\Release\Plugin.dll
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\obj\Release\Plugin.pdb
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Release\Plugin.dll
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Release\Plugin.pdb
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Release\RetroLib.dll
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Release\RetroUtil.dll
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Release\RetroLib.pdb
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Release\RetroUtil.pdb
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\obj\Release\Plugin.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\obj\Release\Plugin.dll
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\obj\Release\Plugin.pdb
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Plugin\bin\Release\Plugin.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Plugin\bin\Release\Plugin.pdb
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Plugin\bin\Release\AForge.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Plugin\bin\Release\AForge.Imaging.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Plugin\bin\Release\AForge.Math.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Plugin\obj\Release\Plugin.csprojResolveAssemblyReference.cache
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Plugin\obj\Release\Plugin.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Plugin\obj\Release\Plugin.pdb

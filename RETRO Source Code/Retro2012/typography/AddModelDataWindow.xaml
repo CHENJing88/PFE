@@ -1,0 +1,89 @@
+﻿<Window x:Class="RetroGUI.typography.AddModelDataWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Model Data" Height="367" Width="731"
+    Background="#E9ECFA" ResizeMode="CanMinimize">
+    <Grid Name="LayoutRoot" Width="708">
+
+      <Grid.Resources>
+        <!-- XML Resource -->
+        <XmlDataProvider x:Key="TypoFeed"/>
+      </Grid.Resources>
+        
+      <!-- Type -->
+      <Label Height="30" HorizontalAlignment="Left" Margin="15,10,0,0" Name="typeLabel" VerticalAlignment="Top" Width="80" ToolTip="Titling fonts contain only capitals">Type :</Label>
+      <ComboBox Height="30" HorizontalAlignment="Left" Margin="15,42,0,0" Name="typeComboBox" VerticalAlignment="Top" Width="80"
+                ItemsSource="{Binding Source={StaticResource TypoFeed}, XPath=Typography/Types/Type}" DisplayMemberPath="@Name" SelectedValuePath="@Name" IsSynchronizedWithCurrentItem="True" />
+        
+      <!-- Alphabet -->
+      <Label Height="30" HorizontalAlignment="Left" Margin="110,10,0,0" Name="alphabetLabel" VerticalAlignment="Top" Width="80">Alphabet :</Label>
+      <ComboBox Height="30" HorizontalAlignment="Left" Margin="110,42,0,0" Name="alphabetComboBox" VerticalAlignment="Top" Width="80" 
+                ItemsSource="{Binding Source={StaticResource TypoFeed}, XPath=Typography/Alphabets/Alphabet}" DisplayMemberPath="@Name" SelectedValuePath="@Name" IsSynchronizedWithCurrentItem="True" />
+
+
+      <!-- Family -->
+      <Label Height="30" Margin="205,10,0,0" Name="familyLabel" VerticalAlignment="Top" HorizontalAlignment="Left" Width="80">Family :</Label>
+      <ComboBox Height="30" Margin="0,42,423,0" Name="familyComboBox" VerticalAlignment="Top" HorizontalAlignment="Right" Width="80"                
+                DataContext="{Binding ElementName=alphabetComboBox, Path=SelectedItem}" ItemsSource="{Binding XPath=Families/Family}" 
+                DisplayMemberPath="@Name" SelectedValuePath="@Name" IsSynchronizedWithCurrentItem="True" />
+
+      
+      <!-- Subfamily --> 
+      <Label Height="30" Margin="300,10,328,0" Name="subfamilyLabel" VerticalAlignment="Top">Subfamily :</Label>
+      <ComboBox Height="30" Margin="300,42,328,0" Name="subfamilyComboBox" VerticalAlignment="Top" 
+                DataContext="{Binding ElementName=familyComboBox, Path=SelectedItem}" ItemsSource="{Binding XPath=Subfamily}"
+                DisplayMemberPath="@Name" SelectedValuePath="@Name" IsSynchronizedWithCurrentItem="True" />
+            
+        
+      <!--  Body Height -->
+      <Label Height="30" HorizontalAlignment="Right" Margin="0,10,138,0" Name="bodyHeightlabel" VerticalAlignment="Top" Width="175" ToolTip="Height of the line, given by the traditional type size name">Body height :</Label>
+      <ComboBox Height="30" HorizontalAlignment="Right" Margin="0,42,138,0" Name="bodyHeightComboBox" VerticalAlignment="Top" Width="175" 
+                DataContext="{Binding ElementName=typeComboBox, Path=SelectedItem}" ItemsSource="{Binding XPath=BodyHeight}" 
+                DisplayMemberPath="@EnglishName" SelectedValuePath="@EnglishName" IsSynchronizedWithCurrentItem="True" />
+      
+      <!-- Thickness -->
+      <Label Height="30" HorizontalAlignment="Right" Margin="0,10,15,0" Name="thicknessLabel" VerticalAlignment="Top" Width="108">Thickness :</Label>
+      <TextBox Height="30" HorizontalAlignment="Right" Margin="0,42,15,0" Name="thicknessTextBox" VerticalAlignment="Top" Width="108" BorderBrush="LightSteelBlue" />
+      
+      <Rectangle Height="1" Margin="15,85,15,0" Name="separator1" Stroke="LightSteelBlue" VerticalAlignment="Top" />
+      
+      <!-- Référence Bibliographique -->
+      <Label Height="30" HorizontalAlignment="Left" Margin="15,100,0,0" Name="referenceLabel" VerticalAlignment="Top" Width="160">Bibliographical references :</Label>
+      <TextBox Height="30" Margin="177,100,0,0" Name="referenceTextBox" VerticalAlignment="Top" HorizontalAlignment="Left" Width="100" BorderBrush="LightSteelBlue" />
+
+    <!-- Unicode -->
+    <Label Height="30" HorizontalAlignment="Left" Margin="15,140,0,159" Name="unicodeLabel" Width="142">Unicode :</Label>
+    <TextBox Height="30" HorizontalAlignment="Left"  Name="unicodeTextBox" Width="100" BorderBrush="LightSteelBlue" Margin="177,140,0,159" />
+
+    <!-- Transcription -->
+      <Label Height="30" HorizontalAlignment="Left" Margin="15,0,0,119" Name="transcriptionLabel" Width="120" VerticalAlignment="Bottom">Transcription :</Label>
+      <TextBox Height="30" HorizontalAlignment="Left" Margin="177,0,0,119" Name="transcriptionTextBox" Width="100" BorderBrush="LightSteelBlue" VerticalAlignment="Bottom" />
+        
+
+      <!-- Graveur -->
+      <Label Height="30" HorizontalAlignment="Left" Margin="15,0,0,79" Name="graveurLabel" VerticalAlignment="Bottom" Width="134">Engraver :</Label>
+      <TextBox Height="30" HorizontalAlignment="Left" Margin="176,0,0,79" Name="graveurTextBox" VerticalAlignment="Bottom" Width="101" BorderBrush="LightSteelBlue" />
+
+      <!-- Image preview -->
+      <Border Name="modelBorder" BorderBrush="LightSteelBlue" BorderThickness="1" CornerRadius="3" Height="151" Width="151" Margin="302,100,256,79" >
+        <Image Height="150" Width="150" Name="modelImage" Stretch="Uniform" />
+      </Border>
+        
+      <!-- Small Cap -->
+      <CheckBox Height="25" HorizontalAlignment="Right" Margin="0,105,15,0" Name="smallCapCheckBox" VerticalAlignment="Top" Width="222">Small Cap</CheckBox>
+        
+      <!-- Commentaires -->
+      <Label Height="30" HorizontalAlignment="Right" Margin="0,130,116,0" Name="commentLabel" Width="120"  VerticalAlignment="Top">Comments :</Label>
+      <TextBox HorizontalAlignment="Right" Margin="0,160,14,79" Name="commentTextBlock" Width="222" BorderBrush="LightSteelBlue" />
+        
+      <Rectangle Height="1" Margin="15,275,15,0" Name="separator2" Stroke="LightSteelBlue" VerticalAlignment="Top" />
+        
+      <!-- Output directory -->  
+      <Label HorizontalAlignment="Left" Margin="17,0,0,14" Name="outputDirLabel" Width="118" Height="26" VerticalAlignment="Bottom">Output Directory :</Label>
+      <TextBox Margin="133,0,175,10" Name="outputDirTextBox" BorderBrush="LightSteelBlue" Height="30" VerticalAlignment="Bottom"  TextChanged="AddModelData_TextBox_OutputDir_TextChange"/>
+      <Button Height="30" Name="selectOutputDirectoryButton" Width="40" Click="AddModelData_Button_Open_Click" HorizontalAlignment="Left" Margin="543,0,0,10" VerticalAlignment="Bottom">...</Button>  
+        
+      <Button HorizontalAlignment="Right" Margin="0,0,15,10" Name="createModelButton" Width="100" Height="30" VerticalAlignment="Bottom" ToolTipService.ShowOnDisabled="True"  Click="AddModelData_Button_CreateModel_Click">Create Model</Button>
+        
+    </Grid>
+</Window>

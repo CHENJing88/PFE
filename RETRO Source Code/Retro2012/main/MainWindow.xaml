@@ -1,0 +1,110 @@
+﻿<Window x:Class="RetroGUI.main.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ad="clr-namespace:AvalonDock;assembly=AvalonDock"
+    xmlns:local="clr-namespace:RetroGUI.main"
+    xmlns:localView="clr-namespace:RetroGUI.visualisation"
+    xmlns:localUtil="clr-namespace:RetroGUI.util"
+    Title="RETRO Software" Left="5" Top="5" MinHeight="620" MinWidth="910" WindowStartupLocation="CenterScreen" Background="AliceBlue">
+    <Grid Name="GridLayout">
+      
+      <!-- Grid definition -->
+      <Grid.RowDefinitions>
+        <RowDefinition Height="24"/> <!-- Menu -->
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="24"/> <!-- Status bar -->
+      </Grid.RowDefinitions>
+      
+        
+        <!-- Menu -->
+        <Menu Name="menu" IsMainMenu="True">
+          <!-- Project -->
+          <MenuItem Header="_Project">
+              <MenuItem Header="_New project" Click="Click_File_NewProject" />
+              <Separator />
+              <MenuItem Header="_Open project" Click="Click_File_OpenProject"/>
+              <MenuItem Header="_Save project" Click="Click_File_SaveProject"/>
+              <MenuItem Header="_Close project" Click="Click_File_CloseProject"/>
+              <Separator />
+              <!--<localUtil:RecentFileList x:Name="RecentFileList" MenuClick="Click_File_RecentProject" />-->
+              <MenuItem Header="_Exit Retro" Click="Click_File_Exit" />
+          </MenuItem>
+          <!-- EoC -->
+          <MenuItem Header="_EoC">
+                <MenuItem Header="_Compute Signatures" Click="ComputeSignatures_Click" />
+                <MenuItem Header="_View" Click="Click_Transcription_AutomaticTranscription" />
+          </MenuItem>
+            <!-- Clusters -->         
+          <MenuItem Header="_Clusters">
+            <MenuItem Header="_Generate" Click="Click_Clustering_ProcessClustering" />            
+            <MenuItem Header="_View / Edit" Click="Click_Clustering_ViewClusters" />
+            <MenuItem Header="_Generate Stats" Click="Click_Clustering_GenerateStats" />
+            <MenuItem Header="_(Load Clusters)" Click="Click_Clustering_LoadClusters" />
+                <MenuItem Header="_Analysis Clusters" Click="Click_Clustering_AnalyseClusters" />
+            <Separator />
+            <MenuItem Header="_Manual Transcription" Click="Click_Transcription_ManualTranscription" />
+            <MenuItem Header="_Automatic Transcription" Click="Click_Transcription_AutomaticTranscription" />            
+          </MenuItem>          
+            <!-- Page -->
+            <MenuItem Header="_Pages">
+                <MenuItem Header="_Browse Pages" Click="Click_Page_OpenPage" />
+                <MenuItem Header="_Browse Illustrations (deprecated)" Click="Click_Page_ViewIllustrations" />
+            </MenuItem>
+            <!-- Books -->
+          <MenuItem Header="_Books">
+            <MenuItem Header="_Export As Alto" Click="Click_Books_ExportAsAlto"/>
+            <MenuItem Header="_Export Annotations" Click="Click_Export_EoC_Annotation"/>
+              
+          </MenuItem>
+          <!-- Typo -->
+          <MenuItem Header="_Typography">
+            <MenuItem Header="_Model Selection" Click="Click_Typography_AddModel" />
+            <MenuItem Header="_BodyHeight" Click="Click_Typography_BodyHeight" />
+            <MenuItem Header="_Clusters To Models" Click="Click_Typo_ClustersToModels" />
+          </MenuItem>
+          <!-- Help -->
+          <MenuItem Header="_Help">
+            <MenuItem Header="_About RETRO" Click="Click_Help_About" />
+          </MenuItem>
+        </Menu>
+
+      
+      <!-- Dock Panel -->
+
+        <ad:DockingManager x:Name="dockManager" Grid.Row="1" Background="GhostWhite">
+        <ad:ResizingPanel Orientation="Vertical">
+          
+          <!-- Informations + Clusters -->
+          <ad:ResizingPanel Orientation="Horizontal">
+            
+            <!-- Informations-->
+              <ad:DocumentPane x:Name="InfomationDocumentPane" SelectedIndex="0" Background="GhostWhite">
+              <!-- Retro -->
+                <ad:DocumentContent x:Name="RetroContent" Title="Retro" Background="GhostWhite">
+                <local:PropertyGridControl x:Name="retroPropertyGrid" />
+              </ad:DocumentContent>
+            </ad:DocumentPane>
+            
+            <!-- Clusters -->
+              <ad:DocumentPane x:Name="GlobalDocumentPane" SelectedIndex="0" ad:ResizingPanel.ResizeWidth="2.1*" Background="GhostWhite">
+              <ad:DocumentContent x:Name="ClustersContent" Title="Clusters">
+                            <Viewbox StretchDirection="Both">
+                                <localView:ClusteringResultView x:Name="ClusteringResultView" Margin="0,10,0,0.507" />
+                            </Viewbox>
+                        </ad:DocumentContent>
+            </ad:DocumentPane>
+          </ad:ResizingPanel>
+   
+        </ad:ResizingPanel>
+      </ad:DockingManager>
+      
+      
+      
+      
+      <!-- StatusBar -->
+      <StatusBar Name="statusBar" Grid.Row="2">
+        <StatusBarItem Content="Retro - Copyright © RFAI, LI Tours, 2011-2014"/>
+      </StatusBar>
+        
+    </Grid>
+</Window>

@@ -1,0 +1,103 @@
+﻿<Window x:Class="RetroGUI.typography.BodyHeightWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Body Height Measure" 
+    Height="840" Width="830"
+    MinHeight="840" MinWidth="830"
+    Background="#E9ECFA">
+  <Grid>
+
+    <!-- Grid column/row definition-->
+    <Grid.RowDefinitions>
+      <RowDefinition Height="30"/>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="55"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*"/>
+      <ColumnDefinition Width="250"/>
+    </Grid.ColumnDefinitions>
+
+    <Button Height="25" HorizontalAlignment="Left" Margin="22,4,0,0" Name="BH_button_Open" VerticalAlignment="Top" Width="40" Click="BH_Button_Open_Click" >...</Button>
+    <Label Name="BH_imagename" Height="30" Margin="66,4,13,0"  VerticalAlignment="Top" BorderThickness="1" Grid.RowSpan="2" Grid.Column="0" FontWeight="ExtraBold" HorizontalAlignment="Center" >Click the [...] button to select an image.</Label>
+
+    <ScrollViewer Name="BH_scrollViewer" Margin="22,13,26,11" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" Grid.Row="1">
+      <Canvas Name="BH_canvas" Background="Transparent" MouseMove="BH_Canvas_MouseMove"  MouseLeftButtonDown="BH_Canvas_MouseLeftButtonDown">
+        <Canvas.LayoutTransform>
+          <ScaleTransform
+                          ScaleX="{Binding Path=Value, ElementName=BH_zoom_slider}"
+                          ScaleY="{Binding Path=Value, ElementName=BH_zoom_slider}"/>
+        </Canvas.LayoutTransform>
+        <Image Name="BH_image" Stretch="None" MouseWheel="BH_Image_MouseWheel" />
+      </Canvas>
+    </ScrollViewer>
+
+    <GroupBox Name="BH_groupBox_caractere" Header="Select Frontier" Margin="0,307,16,130" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="244" Height="280">
+      <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="25"/>
+          <RowDefinition Height="25"/>
+          <RowDefinition Height="25"/>
+          <RowDefinition Height="25"/>
+          <RowDefinition Height="25"/>
+          <RowDefinition Height="25"/>
+          <RowDefinition Height="25"/>
+          <RowDefinition Height="25"/>
+          <RowDefinition Height="25"/>
+          <RowDefinition Height="25"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="177*" />
+          <ColumnDefinition Width="55*" />
+        </Grid.ColumnDefinitions>
+        <Label Name="BH_label_20" Margin="5,0,0,0" HorizontalAlignment="Left" Width="80">[20] (in mm)</Label>
+        <CheckBox Name="BH_checkBox_LineSpace" Grid.Row="1" Height="18" Margin="20,5,33.683,0" VerticalAlignment="Top" IsEnabled="False">Consider Line Space</CheckBox>
+        <RadioButton Name="BH_radioButton_20_Top" Grid.Row="2" Height="16" Margin="20,5,42.683,0"  VerticalAlignment="Top" Checked="BH_RadioBox_Select">Top (in pixel)</RadioButton>
+        <RadioButton Name="BH_radioButton_20_Bottom" Grid.Row="3" Height="16" Margin="20,5,42.683,0"  VerticalAlignment="Top" Checked="BH_RadioBox_Select">Bottom (in pixel)</RadioButton>
+        <Label Name="BH_label_x" Grid.Row="4" Margin="5,0,0,0" HorizontalAlignment="Left" Width="80">[x] (in mm)</Label>
+        <RadioButton Name="BH_radioButton_x_Top" Grid.Row="5" Height="16" Margin="20,5,42.683,0"  VerticalAlignment="Top" Checked="BH_RadioBox_Select">Top (in pixel)</RadioButton>
+        <RadioButton Name="BH_radioButton_x_Bottom" Grid.Row="6" Height="16" Margin="20,5,42.683,0"  VerticalAlignment="Top" Checked="BH_RadioBox_Select">Bottom (in pixel)</RadioButton>
+        <Label Name="BH_label_colon" Grid.Row="7" Margin="5,0,0,0" HorizontalAlignment="Left" Width="80">[:] (in mm)</Label>
+        <RadioButton Name="BH_radioButton_colon_Top" Grid.Row="8" Height="16" Margin="20,5,42.683,0"  VerticalAlignment="Top" Checked="BH_RadioBox_Select">Top (in pixel)</RadioButton>
+        <RadioButton Name="BH_radioButton_colon_Bottom" Grid.Row="9" Height="16" Margin="20,5,42.683,0"  VerticalAlignment="Top" Checked="BH_RadioBox_Select">Bottom (in pixel)</RadioButton>
+
+        <TextBox Name="BH_textBox_20" Grid.Column="1" Text="0" TextAlignment="Right" IsEnabled="False" />
+        <TextBox Name="BH_textBox_20_linespace" Grid.Row="1" Grid.Column="1" Text="0" TextAlignment="Right" IsEnabled="False" Height="25" VerticalAlignment="Bottom" />
+        <TextBox Name="BH_textBox_20_top" Grid.Row="2" Grid.Column="1" Text="0" TextAlignment="Right" IsEnabled="False" Height="25" VerticalAlignment="Top" />
+        <TextBox Name="BH_textBox_20_bottom" Grid.Row="3" Grid.Column="1" Text="0" TextAlignment="Right" IsEnabled="False" />
+        <TextBox Name="BH_textBox_x" Grid.Row="4" Grid.Column="1" Text="0" TextAlignment="Right" IsEnabled="False" />
+        <TextBox Name="BH_textBox_x_top" Grid.Row="5" Grid.Column="1" Text="0" TextAlignment="Right" IsEnabled="False" />
+        <TextBox Name="BH_textBox_x_bottom" Grid.Row="6" Grid.Column="1" Text="0" TextAlignment="Right" IsEnabled="False" />
+        <TextBox Name="BH_textBox_colon" Grid.Row="7" Grid.Column="1" Text="0" TextAlignment="Right" IsEnabled="False" />
+        <TextBox Name="BH_textBox_colon_top" Grid.Row="8" Grid.Column="1" Text="0" TextAlignment="Right" IsEnabled="False" />
+        <TextBox Name="BH_textBox_colon_bottom" Grid.Row="9" Grid.Column="1" Text="0" TextAlignment="Right" IsEnabled="False" />
+      </Grid>
+    </GroupBox>
+
+    <Slider Name="BH_zoom_slider" Margin="22,9,26,16" Minimum="0.5" Maximum="5"  Ticks="0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5" TickFrequency="0.5" SmallChange="0.5" LargeChange="0.5" Value="1"
+            TickPlacement="BottomRight" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="1" IsSnapToTickEnabled="True" Grid.Row="2" Width="300" HorizontalAlignment="Right" />
+
+    <GroupBox Name="BH_groupBox_Result" Header="Body Height Estimation" Height="105" VerticalAlignment="Bottom" Grid.Row="1" Margin="0,0,16,10" Grid.ColumnSpan="2" HorizontalAlignment="Right" Width="243">
+      <Grid Height="73" Name="grid1" Width="220" >
+        <Grid.RowDefinitions>
+          <RowDefinition Height="25"/>
+          <RowDefinition Height="25"/>
+          <RowDefinition Height="25"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="50*" />
+          <ColumnDefinition Width="170*" />
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Name="BH_result_label_20" Margin="5,0,0,0" HorizontalAlignment="Left" Width="50">[20]</Label>
+        <Label Grid.Row="1" Grid.Column="0" Name="BH_result_label_x" Margin="5,0,0,0" HorizontalAlignment="Left" Width="50">[x]</Label>
+        <Label Grid.Row="2" Grid.Column="0" Name="BH_result_label_colon" Margin="5,0,0,0" HorizontalAlignment="Left" Width="50">[:]</Label>
+        <Label Grid.Column="1" Name="BH_result_20">-Not defined-</Label>
+        <Label Grid.Row="1" Grid.Column="1" Name="BH_result_x">-Not defined-</Label>
+        <Label Grid.Row="2" Grid.Column="1" Name="BH_result_colon">-Not defined-</Label>
+      </Grid>
+    </GroupBox>
+
+    <Button HorizontalAlignment="Right" Margin="0,14,145,16" Name="BH_button_Reset" Width="115" Click="BH_Button_Reset_Click" Grid.Row="2" Grid.ColumnSpan="2">Reset</Button>
+    <Button Margin="119,14,16,16" Name="BH_button_Export" Click="BH_Button_Export_Click" Grid.Row="2" Grid.Column="1">Export</Button>
+  </Grid>
+</Window>

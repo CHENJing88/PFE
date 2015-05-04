@@ -1,0 +1,107 @@
+F:\workspace\visual\Clustering\ClassLibrary1\bin\Debug\Plugin.dll
+F:\workspace\visual\Clustering\ClassLibrary1\bin\Debug\Plugin.pdb
+F:\workspace\visual\Clustering\ClassLibrary1\obj\Debug\Plugin.csprojResolveAssemblyReference.cache
+F:\workspace\visual\Clustering\ClassLibrary1\obj\Debug\Polytech.Clustering.Plugin.ImageForm.resources
+F:\workspace\visual\Clustering\ClassLibrary1\obj\Debug\Plugin.csproj.GenerateResource.Cache
+F:\workspace\visual\Clustering\ClassLibrary1\obj\Debug\Plugin.dll
+F:\workspace\visual\Clustering\ClassLibrary1\obj\Debug\Plugin.pdb
+F:\workspace\visual\Clustering\Plugin\bin\Debug\Plugin.XML
+F:\workspace\visual\Clustering\Plugin\bin\Debug\Plugin.dll
+F:\workspace\visual\Clustering\Plugin\bin\Debug\Plugin.pdb
+F:\workspace\visual\Clustering\Plugin\bin\Debug\AForge.Imaging.dll
+F:\workspace\visual\Clustering\Plugin\bin\Debug\AForge.dll
+F:\workspace\visual\Clustering\Plugin\bin\Debug\AForge.Math.dll
+F:\workspace\visual\Clustering\Plugin\bin\Debug\AForge.Imaging.xml
+F:\workspace\visual\Clustering\Plugin\bin\Debug\AForge.xml
+F:\workspace\visual\Clustering\Plugin\bin\Debug\AForge.Math.xml
+F:\workspace\visual\Clustering\Plugin\obj\Debug\Plugin.csprojResolveAssemblyReference.cache
+F:\workspace\visual\Clustering\Plugin\obj\Debug\Plugin.dll
+F:\workspace\visual\Clustering\Plugin\obj\Debug\Plugin.pdb
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\Plugin\bin\Debug\Plugin.XML
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\Plugin\bin\Debug\Plugin.dll
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\Plugin\bin\Debug\Plugin.pdb
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\Plugin\bin\Debug\AForge.dll
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\Plugin\bin\Debug\AForge.Math.dll
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\Plugin\bin\Debug\AForge.Imaging.xml
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\Plugin\bin\Debug\AForge.xml
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\Plugin\bin\Debug\AForge.Math.xml
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\Plugin\obj\Debug\Plugin.csprojResolveAssemblyReference.cache
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\Plugin\obj\Debug\Plugin.dll
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\Plugin\obj\Debug\Plugin.pdb
+C:\Users\Samantha\Dropbox\DI5\PFE\PFE2012_2013\CopieCodeLudo\Clustering\Plugin\bin\Debug\Plugin.XML
+C:\Users\Samantha\Dropbox\DI5\PFE\PFE2012_2013\CopieCodeLudo\Clustering\Plugin\bin\Debug\Plugin.dll
+C:\Users\Samantha\Dropbox\DI5\PFE\PFE2012_2013\CopieCodeLudo\Clustering\Plugin\bin\Debug\Plugin.pdb
+C:\Users\Samantha\Dropbox\DI5\PFE\PFE2012_2013\CopieCodeLudo\Clustering\Plugin\obj\Debug\Plugin.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Dropbox\DI5\PFE\PFE2012_2013\CopieCodeLudo\Clustering\Plugin\obj\Debug\Plugin.dll
+C:\Users\Samantha\Dropbox\DI5\PFE\PFE2012_2013\CopieCodeLudo\Clustering\Plugin\obj\Debug\Plugin.pdb
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Debug\Plugin.XML
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Debug\Plugin.dll
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Debug\Plugin.pdb
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\obj\Debug\Plugin.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\obj\Debug\Plugin.dll
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\obj\Debug\Plugin.pdb
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Debug\Plugin.XML
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Debug\Plugin.dll
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Debug\Plugin.pdb
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\obj\Debug\Plugin.dll
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\obj\Debug\Plugin.pdb
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\obj\Debug\Plugin.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Debug\Plugin.XML
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Debug\Plugin.dll
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Debug\Plugin.pdb
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\obj\Debug\Plugin.dll
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\obj\Debug\Plugin.pdb
+C:\Users\Samantha\Documents\DI5\pfe-clustering\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Debug\Plugin.XML
+C:\Users\Samantha\Documents\DI5\pfe-clustering\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Debug\Plugin.dll
+C:\Users\Samantha\Documents\DI5\pfe-clustering\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Debug\Plugin.pdb
+C:\Users\Samantha\Documents\DI5\pfe-clustering\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Debug\RetroLib.dll
+C:\Users\Samantha\Documents\DI5\pfe-clustering\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Debug\RetroUtil.dll
+C:\Users\Samantha\Documents\DI5\pfe-clustering\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Debug\RetroLib.pdb
+C:\Users\Samantha\Documents\DI5\pfe-clustering\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Debug\RetroUtil.pdb
+C:\Users\Samantha\Documents\DI5\pfe-clustering\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\obj\Debug\Plugin.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Documents\DI5\pfe-clustering\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\obj\Debug\Plugin.dll
+C:\Users\Samantha\Documents\DI5\pfe-clustering\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\obj\Debug\Plugin.pdb
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Debug\Plugin.XML
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Debug\Plugin.dll
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Debug\Plugin.pdb
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Debug\RetroLib.dll
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Debug\RetroUtil.dll
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Debug\RetroLib.pdb
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\bin\Debug\RetroUtil.pdb
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\obj\Debug\Plugin.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\obj\Debug\Plugin.dll
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Plugin\obj\Debug\Plugin.pdb
+E:\JYRAMEL\PFE_DEA_stages\an20132014\ResultsPFE2014\PFE-RETRO\RETRO Source Code\Plugin\bin\Debug\Plugin.XML
+E:\JYRAMEL\PFE_DEA_stages\an20132014\ResultsPFE2014\PFE-RETRO\RETRO Source Code\Plugin\bin\Debug\Plugin.dll
+E:\JYRAMEL\PFE_DEA_stages\an20132014\ResultsPFE2014\PFE-RETRO\RETRO Source Code\Plugin\bin\Debug\Plugin.pdb
+E:\JYRAMEL\PFE_DEA_stages\an20132014\ResultsPFE2014\PFE-RETRO\RETRO Source Code\Plugin\bin\Debug\RetroLib.dll
+E:\JYRAMEL\PFE_DEA_stages\an20132014\ResultsPFE2014\PFE-RETRO\RETRO Source Code\Plugin\bin\Debug\RetroUtil.dll
+E:\JYRAMEL\PFE_DEA_stages\an20132014\ResultsPFE2014\PFE-RETRO\RETRO Source Code\Plugin\bin\Debug\RetroLib.pdb
+E:\JYRAMEL\PFE_DEA_stages\an20132014\ResultsPFE2014\PFE-RETRO\RETRO Source Code\Plugin\bin\Debug\RetroUtil.pdb
+E:\JYRAMEL\PFE_DEA_stages\an20132014\ResultsPFE2014\PFE-RETRO\RETRO Source Code\Plugin\obj\Debug\Plugin.csprojResolveAssemblyReference.cache
+E:\JYRAMEL\PFE_DEA_stages\an20132014\ResultsPFE2014\PFE-RETRO\RETRO Source Code\Plugin\obj\Debug\Plugin.dll
+E:\JYRAMEL\PFE_DEA_stages\an20132014\ResultsPFE2014\PFE-RETRO\RETRO Source Code\Plugin\obj\Debug\Plugin.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Plugin\bin\Debug\Plugin.XML
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Plugin\bin\Debug\Plugin.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Plugin\bin\Debug\Plugin.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Plugin\bin\Debug\AForge.Imaging.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Plugin\obj\Debug\Plugin.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Plugin\obj\Debug\Plugin.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Plugin\obj\Debug\Plugin.csprojResolveAssemblyReference.cache
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_2014dec2014\RETRO Source Code\Plugin\bin\Debug\Plugin.XML
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_2014dec2014\RETRO Source Code\Plugin\bin\Debug\Plugin.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_2014dec2014\RETRO Source Code\Plugin\bin\Debug\Plugin.pdb
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_2014dec2014\RETRO Source Code\Plugin\bin\Debug\AForge.Imaging.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_2014dec2014\RETRO Source Code\Plugin\bin\Debug\AForge.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_2014dec2014\RETRO Source Code\Plugin\obj\Debug\Plugin.csprojResolveAssemblyReference.cache
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_2014dec2014\RETRO Source Code\Plugin\obj\Debug\Plugin.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_2014dec2014\RETRO Source Code\Plugin\obj\Debug\Plugin.pdb
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Plugin\bin\Debug\Plugin.XML
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Plugin\bin\Debug\Plugin.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Plugin\bin\Debug\Plugin.pdb
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Plugin\bin\Debug\AForge.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Plugin\bin\Debug\AForge.Imaging.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Plugin\bin\Debug\AForge.Math.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Plugin\obj\Debug\Plugin.csprojResolveAssemblyReference.cache
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Plugin\obj\Debug\Plugin.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Plugin\obj\Debug\Plugin.pdb

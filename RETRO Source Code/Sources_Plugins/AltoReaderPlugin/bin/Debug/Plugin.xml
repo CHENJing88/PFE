@@ -1,0 +1,859 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin</name>
+    </assembly>
+    <members>
+        <member name="T:Polytech.Clustering.Plugin.ASignature">
+            <summary>
+            Abstract Class that allows to store a vector of features represanting a Pattern (for exemple Zernike coefficiants). 
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ASignature.Divide(System.Int32)">
+            <summary>
+            Surcharge of "/". Method should be implemented in the final signature class 
+            </summary>
+            <param name="divisor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ASignature.op_Division(Polytech.Clustering.Plugin.ASignature,System.Int32)">
+            <summary>
+            Surcharge of operator "diviser". Division of the features by an integer
+            </summary>
+            <param name="v1">signature to divide</param>
+            <param name="divisor">divisor</param>
+            <returns>resulted signature</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ASignature.Add(Polytech.Clustering.Plugin.ASignature)">
+            <summary>
+            Surcharge of  "addition". To add 2 signatures.
+            </summary>       
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ASignature.op_Addition(Polytech.Clustering.Plugin.ASignature,Polytech.Clustering.Plugin.ASignature)">
+            <summary>
+            Surcharge of  "addition". To add 2 signature.
+            </summary>
+            <param name="v1">Fisrt signature signature</param>
+            <param name="toAdd">Second signature</param>
+            <returns>resulting Signature </returns>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.ASignature.m_normalisedFeatures">
+            <summary>
+            Normalised values of the features (to be computed by the user before use)
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ASignature.GetNormalisedFeatures">
+            <summary>
+            Abstract method to get the normalized values of the features (they need to have been computed before).
+            </summary>
+            <returns>List of features as doouble</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ASignature.GetFeatures">
+            <summary>
+            Abstract method to Get the initial values of the features (not normalized)
+            </summary>
+            <returns>The list of features</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ASignature.SignatureSum(Polytech.Clustering.Plugin.ASignature)">
+            <summary>
+            Abstract method to add the features of a signature to the current values
+            </summary>
+            <param name="sign2">Signature to use for addition</param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ASignature.SignatureSub(Polytech.Clustering.Plugin.ASignature)">
+            <summary>
+            Should be Abstract like Sum : Not implemented yet
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ASignature.AddFeature(System.Object)">
+            <summary>
+            Abstract method to add one more feature to the signature
+            </summary>
+            <param name="toAdd">Feature to add</param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ASignature.EuclidianDistance(Polytech.Clustering.Plugin.ASignature)">
+            <summary>
+            Abstract method to compute euclidian distance between 2 signatures
+            </summary>
+            <param name="signature2">Second signature to consider</param>
+            <returns>Value of the distance</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ASignature.GetName">
+            <summary>
+            Abstract method to get the name of the signature (Zernike" for exemple) signatures
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ASignature.Clone">
+            <summary>
+            Abstract method to clone a signature
+            </summary>
+            <returns>New signature</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ASignature.Dispose">
+            <summary>
+            Abstract method to free memory
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ASignature.ToStringList">
+            <summary>
+            Abstract method to get information about a signature
+            </summary>
+            <returns>List of strings providing info about the signature (values of the features for exemple)</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ASignature.SetNormalisedFeatures(System.Collections.Generic.List{System.Double})">
+            <summary>
+            Updating the normalized values of the signature
+            </summary>
+            <param name="normalisedFeatures">List of normalized features for this signature</param>
+        </member>
+        <member name="T:Polytech.Clustering.Plugin.IConfig">
+            <summary>
+            Class embedding the plugin configuration
+            </summary>        
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IConfig.SerializeToXml(System.String)">
+            <summary>
+            XML serialiser
+            </summary>
+            <param name="path"> File to save the configuration</param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IConfig.DeserializeFromXml(System.String)">
+            <summary>
+            XML deserialiser 
+            </summary>
+            <param name="path">File containing the serialisation</param>
+        </member>
+        <member name="T:Polytech.Clustering.Plugin.ShapeEoC">
+            <summary>
+            Represent an EoC extracted from a document image. Herited from APattern Class with additional information like position and Bitmap
+            </summary>
+        </member>
+        <member name="T:Polytech.Clustering.Plugin.APattern">
+            <summary>
+            Abstract Class representing a generic pattern that need to be clutered or visualized  
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.APattern.GetSignature(System.String)">
+            <summary>
+            Return the requested signature if available (in memory) for the pattern 
+            </summary>
+            <param name="signatureName">Name of the desired signature (ZERNIKE for exemple) </param>
+            <returns>The requested signature or null if not found</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.APattern.#ctor(System.String,System.String,System.Collections.Generic.List{Polytech.Clustering.Plugin.ASignature})">
+            <summary>
+            Constructor 
+            </summary>
+            <param name="idPart1">L'Part 1 of the Pattern identifier (Agora Alto id) </param>
+            <param name="idPart2">L'Part 2 of the Pattern identifier (Agora output Path) </param>
+            <param name="listSignatures">List of signatures for thi pattern</param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.APattern.#ctor(System.String,System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="idPart1">L'Part 1 of the Pattern identifier (Agora Alto id) </param>
+            <param name="idPart2">L'Part 2 of the Pattern identifier (Agora output Path) </param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.APattern.AddSignature(Polytech.Clustering.Plugin.ASignature)">
+            <summary>
+            Add a signature in the list of available signature (be careful that the order of the signature can be important)
+            </summary>
+            <param name="newSign">signature to add</param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.APattern.SaveSignature(System.String)">
+            <summary>
+            Save the requested signature in a file according to the pattern Id 
+            </summary>
+            <param name="signatureName">Name of the desired signature (ZERNIKE for exemple) </param>
+            <returns>Return true if the requested signature has been saved in a file</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.APattern.LoadSignature(System.String)">
+            <summary>
+            Load the requested signature from a file according to the name and pattern Id 
+            </summary>
+            <param name="signatureName">Name of the desired signature (ZERNIKE for exemple) </param>
+            <returns>Return true if the requested signature has been loaded from a file</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.APattern.EuclidianDistance(Polytech.Clustering.Plugin.APattern)">
+            <summary>
+            Computation of euclideian distance between 2 pattern using all the available signatures (in memory)
+            </summary>
+            <param name="pattern2">Pattrern to compare with</param>
+            <returns>euclidian distance from pattern 2</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.APattern.EuclidianDistance(Polytech.Clustering.Plugin.APattern,System.Int32)">
+            <summary>
+            Compute euclidian distance between 2 pattern using only one specifi signature
+            </summary>
+            <param name="pattern2">pattern to compare with</param>
+            <param name="indexSignature">L'index of signature to use (be careful that order can be important)</param>
+            <returns>the euclidian distance</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.APattern.GetInfo">
+            <summary>
+            Provide info about the pattern
+            </summary>
+            <returns>List of Object (string, bitmap, ...)</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.APattern.ImageRepresentation">
+            <summary>
+            To allow to associate a bitmap to a pattern ("null" if not available)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.APattern.Dispose">
+            <summary>
+            To free the memory with non useful data for clustering
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.APattern.Clone">
+            <summary>
+            Héritage of the interface "ICloneable", to duplicate a pattern
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.APattern.SumPattern(Polytech.Clustering.Plugin.APattern)">
+            <summary>
+            Addition of the signatures in pattern2 to signatures of this pattern
+            </summary>
+            <param name="pattern2"> pattern to add</param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.APattern.DivideSignatures(System.Int32)">
+            <summary>
+            Division of all the signatures by an integer
+            </summary>
+            <param name="p">integer to use for the division</param>
+            <returns>the pattern with the new values of signatures</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.APattern.RemoveLastSignature">
+            <summary>
+            Remove the last signature in the list (in memory).
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.APattern.NotifyPropertyChanged(System.String)">
+            <summary>
+            For binding purpose
+            </summary>
+        </member>
+        <member name="P:Polytech.Clustering.Plugin.APattern.GetSignatures">
+            <summary>
+            Returns the list of the signatures available (in memory) for the pattern 
+            </summary>        
+            <returns>Returns the list of the signatures available (in memory) for the pattern</returns>
+        </member>
+        <member name="P:Polytech.Clustering.Plugin.APattern.IdPart1">
+            <summary>
+            Identifier of the pattern composed of 2 parts : Alto EoC identifier = name of the file without extension (for exemple 0000.0000.0001) + Path to the Agora output directory without the initial letter (for exemple //mylibrary//agoraresult//Book1//Alto)        
+            </summary>        
+        </member>
+        <member name="P:Polytech.Clustering.Plugin.APattern.IdPart2">
+            <summary>
+            Identifier of the pattern composed of 2 parts : Alto EoC identifier = name of the file without extension (for exemple 0000.0000.0001) + Path to the Agora output directory without the initial letter (for exemple //mylibrary//agoraresult//Book1//Alto)
+            </summary>                
+        </member>
+        <member name="E:Polytech.Clustering.Plugin.APattern.PropertyChanged">
+            <summary>
+            For binding purpose
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.ShapeEoC.m_hpos">
+            <summary>
+            Horizontal position  of the Eoc (not always set)
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.ShapeEoC.m_vpos">
+            <summary>
+            Vertical Position of the EoC (not always set)
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.ShapeEoC.m_width">
+            <summary>
+            Width of the EoC (not always set)
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.ShapeEoC.m_height">
+            <summary>
+            Height of the EoC (not always set)
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ShapeEoC.LoadEoCImage">
+            <summary>
+            Crop the EoC image in the associated document obtained from "m_pathToFullImage" 
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ShapeEoC.GetInfo">
+            <summary>
+            Get an object list describing the eoc
+            </summary>
+            <returns>List of info</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ShapeEoC.ImageRepresentation">
+            <summary>
+            Return the EoC image . Load it from the full image if necessary
+            </summary>
+            <returns>Bitmap of the context</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ShapeEoC.GetContext(System.Int32,System.Int32)">
+            <summary>
+            Return image of the EoC in his surrounding context
+            </summary>
+            <param name="pxWidth">Nb of pixels to add horizontally</param>        
+            <param name="pxHeight">nb of pixels to add vertically</param>        
+            <returns>Bitmap of the context</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ShapeEoC.#ctor(System.String,System.String)">
+            <summary>
+            Constructor by default herited from Appettern
+            </summary>
+            <param name="id1">part 1 of Pattern id (AgoraAlto id)</param>        
+            <param name="id2">part 2 of pattern id (path to alto directory)</param>     
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ShapeEoC.#ctor(System.String,System.String,System.Collections.Generic.List{Polytech.Clustering.Plugin.ASignature})">
+            <summary>
+            Constructor with signatures insertion
+            </summary>
+            <param name="idPart1">L'Part 1 of the Pattern identifier (Agora Alto id) </param>
+            <param name="idPart2">L'Part 2 of the Pattern identifier (Agora output Path) </param>
+            <param name="listSignatures">List of signatures for thi pattern</param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ShapeEoC.#ctor(System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.String)">
+            <summary>
+            Constuctor with Additional parameters   
+            </summary>
+            <param name="idPart1">Identifier of the EoC = Name of the image file of the pattern</param>
+            <param name="idPart2">Identifier of the EoC = Name of the image file of the pattern</param>
+            <param name="hpos">x position</param>        
+            <param name="vpos">y position</param>        
+            <param name="height">nb of pixels to add vertically</param>     
+            <param name="width">nb of pixels to add horizontally</param>     
+            <param name="pathToFullImage">Path to the full image</param>     
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ShapeEoC.Dispose">
+            <summary>
+            To free the memory
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ShapeEoC.Clone">
+            <summary>
+            To intantiate a new EoC
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ShapeEoC.SumPattern(Polytech.Clustering.Plugin.APattern)">
+            <summary>
+            Add signature of pattern2 with signature of the current pattern
+            </summary>
+        </member>
+        <member name="P:Polytech.Clustering.Plugin.ShapeEoC.EocImage">
+            <summary>
+            Référence to the bitmap correspoding to the EoC (not always set - see LoadEoCImage() ) 
+            </summary>
+        </member>
+        <member name="P:Polytech.Clustering.Plugin.ShapeEoC.PathToFullImage">
+            <summary>
+            Path of the associated complete image (not always set)
+            </summary>
+        </member>
+        <member name="T:Polytech.Clustering.Plugin.Database">
+            <summary>
+            Class containing all the information about the data to process
+            </summary>    
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.Database.m_avgSignatures">
+            List of double to save the averages of the features of the signatures
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.Database.m_listMeans">
+            List of list of averages (one for each signature of the pattern - a pattern can have several signature)
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.Database.m_variance">
+            Standard deviation of the data
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.Database.m_listVariances">
+            List of list of variance (one for each signature of the pattern - a pattern can have several signature)
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.Database.m_listMaxValues">
+            2 List of doubles to save Min and Max values of each feature (used for MinMax normalization).
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.Database.m_nbPatterns">
+            Total number of patterns in the data to process
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Database.AddDocument(Polytech.Clustering.Plugin.Document)">
+            <summary>
+            To add a document into the dataset to process
+            </summary>    
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Database.ZScoreNormalization">
+            <summary>
+            Méthod to normalized the data of the dataset by using Z-SCORE
+            (See : http://stn.spotfire.com/spotfire_client_help/norm/norm_z_score.htm)
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Database.MinMaxNormalisation">
+            <summary>
+            Normalisation of the data by MinMax method
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Database.UpdateNormalizationData(Polytech.Clustering.Plugin.APattern)">
+            <summary>
+            Updating of the normalized data when adding a new pattern
+            </summary>
+            <param name="newPattern">Added Pattern</param>
+        </member>
+        <member name="P:Polytech.Clustering.Plugin.Database.NbPatterns">
+            <summary>
+            Get/Set Total number of patterns in the data to process
+            </summary>
+        </member>
+        <member name="P:Polytech.Clustering.Plugin.Database.Documents">
+            <summary>
+            List of documents (images) containing the patterns to process 
+            </summary>    
+        </member>
+        <member name="T:Polytech.Clustering.Plugin.Cluster">
+            <summary>
+            Important Class that allow to manage and store information about the clusters (To avoid memory problem some information can be stored in a file instead of in memory if not needed - see list of patterns)
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Cluster.AddRepresentative(Polytech.Clustering.Plugin.APattern)">
+            <summary>
+            Add a Representative for this cluster
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Cluster.#ctor(System.String,System.String)">
+            <summary>
+            Constructor to create an empty cluster (and set the associated filename according to path and id)
+            </summary>
+            <param name="id">Name of the cluster file to use </param>
+            <param name="pathToClusterDir">L'Define where to put the cluster file (path) </param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Cluster.#ctor(System.String)">
+            <summary>
+            Constructor by loading the content of a Xml file)
+            </summary>
+            <param name="pathToClusterFilename">Path to cluster xml file </param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Cluster.SaveClusterToXml">
+            <summary>
+            Save Cluster to XML file
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Cluster.UpdatePatternsinXmlFile">
+            <summary>
+            TODO - Update the patterns list in the XML file with the actual content - TODO
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Cluster.LoadPatternsFromFile(System.Boolean)">
+            <summary>
+            Load patterns from xml file
+            </summary>
+            <param name="updateLabel">true if Label should be read in the xml file - false to read only patterns </param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Cluster.AddNewLabel(System.String,System.String,System.Double)">
+            <summary>
+            Insert a new label for the current cluster 
+            </summary>
+            <param name="methodname">method of the labelling</param>
+            <param name="label">New label</param>
+            <param name="confidenceRate">Confidence of the new label, in [0,1]</param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Cluster.UpdateLabelinXmlFile(System.String)">
+            <summary>
+            Update the label attribute in the cluster xml file regarding the new assigned label
+            </summary>
+            <param name="newLabel">New label</param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Cluster.ResetPatternListandLabels">
+            <summary>
+            Clear all the cluster content
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Cluster.ClearPatternsFromMemory">
+            <summary>
+            Remove patterns from the memory
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Cluster.GetCentroid">
+            <summary>
+            Compute the centroid of the cluster according to patterns in the memory
+            </summary>
+            <returns>Référence to the centroid radiuspattern. Null if no radiuspattern in memory</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Cluster.GetRadius">
+            <summary>
+            Compute the radius of the cluster - average distance from the centroïd to the rest of the patterns
+            </summary>
+            <returns>return the radius</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Cluster.GetDiameter">
+            <summary>
+            Compute the diameter of the cluster - average distance between all the patterns
+            </summary>
+            <returns>return the diameter</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Cluster.AddPattern(Polytech.Clustering.Plugin.APattern)">
+            <summary>
+            Add a pattern into the cluster
+            </summary>
+            <param name="pattern">Pattern to add</param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Cluster.AddPatterns(System.Collections.Generic.List{Polytech.Clustering.Plugin.APattern})">
+            <summary>
+            Add a list of patterns
+            </summary>
+            <param name="patternsToAdd">List of patterns to add</param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Cluster.RemovePattern(Polytech.Clustering.Plugin.APattern)">
+            <summary>
+            Remove a pattern from the cluster (in memory)
+            </summary>
+            <param name="toRemove">Pattern to remove</param>
+            <returns>true -> done - false -> pattern not found</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Cluster.Order(Polytech.Clustering.Plugin.APattern)">
+            <summary>
+            Sort the list of patterns according to distance to the reference pattern
+            </summary>
+            <param name="centroid">reference pattern </param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Cluster.ToString">
+            <summary>
+            For Display purpose in GUI ListBox
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Cluster.NotifyPropertyChanged(System.String)">
+            <summary>
+            For binding purpose
+            </summary>
+        </member>
+        <member name="P:Polytech.Clustering.Plugin.Cluster.Id">
+            <summary>
+            Identifier of the Cluster (name of the xml file)        
+            </summary>        
+        </member>
+        <member name="P:Polytech.Clustering.Plugin.Cluster.ShapesAreLoaded">
+            <summary>
+            To know if the patterns have been cleared from memory
+            </summary>
+            <returns>returns false if ClearPatterns() have been used - true if LoadPatternsFromFile() have been used</returns>returns>
+        </member>
+        <member name="P:Polytech.Clustering.Plugin.Cluster.IsLabelized">
+            <summary>
+            Indicate if the cluster has been labelized
+            </summary>
+        </member>
+        <member name="P:Polytech.Clustering.Plugin.Cluster.NbPatterns">
+            <summary>
+            To know the Number of the shapes of this cluster 
+            </summary>
+        </member>
+        <member name="P:Polytech.Clustering.Plugin.Cluster.Representatives">
+            <summary>
+            list of Representatives of this cluster
+            </summary>
+        </member>
+        <member name="P:Polytech.Clustering.Plugin.Cluster.LabelList">
+            <summary>
+            Ordered List of label for this cluster (see Confidencelist and MethoList) 
+            </summary>
+        </member>
+        <member name="P:Polytech.Clustering.Plugin.Cluster.MethodList">
+            <summary>
+            Method used to set the label at this index in the LabelList
+            </summary>
+        </member>
+        <member name="P:Polytech.Clustering.Plugin.Cluster.ConfidenceList">
+            <summary>
+            Confidence rate for the labling
+            </summary>
+        </member>
+        <member name="P:Polytech.Clustering.Plugin.Cluster.Patterns">
+            <summary>
+            To get/set the list of Patterns in memory for this cluster
+            </summary>
+            <returns>returns the List of available pattern in this cluster (can be not present here but only in the associated xml file) </returns>
+        </member>
+        <member name="E:Polytech.Clustering.Plugin.Cluster.PropertyChanged">
+            <summary>
+            For binding purpose
+            </summary>
+        </member>
+        <member name="T:Polytech.Clustering.Plugin.Document">
+            <summary>
+            A Document (image) corresponds to the element that contains the patterns to be proccessed  
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.Document.m_dbParent">
+            <summary>
+            Reference to the Dataset containing all the documents 
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Document.#ctor(System.String)">
+            <summary>
+            Path to the file corresponding to the document (alto or image or ...)
+            </summary>      
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Document.AddPattern(Polytech.Clustering.Plugin.APattern)">
+            <summary>
+            To add a pattern into the document
+            </summary>      
+        </member>
+        <member name="P:Polytech.Clustering.Plugin.Document.Patterns">
+            <summary>
+            A document contains a list of extracted patterns (EoC)
+            </summary>        
+        </member>
+        <member name="T:Polytech.Clustering.Plugin.IClusteringPlugin">
+            <summary>
+            Interface for Clustering plugin
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IClusteringPlugin.PerformClustering">
+            <summary>
+            Need to be implemented to Perform the clustering on the prealably selected dataset of documents with patterns 
+            </summary>
+            <returns>Resulting List of clusters</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IClusteringPlugin.PerformClustering(Polytech.Clustering.Plugin.Cluster,System.Collections.Generic.List{Polytech.Clustering.Plugin.APattern},System.Int32)">
+            <summary>
+            Need to be implemented to Perform a clustering on a specific cluster. 
+            </summary>
+            <param name="clusterToProcess">Cluster to analyze again</param>
+            <param name="refPatterns">Representatives of the desired clusters if necessary</param>
+            <param name="indexSignature">Index of the signature to use for the clustering clustering (-1 to use all signatures)</param>
+            <returns>Resulting list of clusters or "null" if not implemented in the plugin</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IClusteringPlugin.SetDatabase(Polytech.Clustering.Plugin.Database)">
+            <summary>
+            To define the database to analyze
+            </summary>
+            <param name="db">Database to use</param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IClusteringPlugin.GetName">
+            <summary>
+            Get the name of the Plugin
+            </summary>
+            <returns>Name of the plugin</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IClusteringPlugin.GetAuthor">
+            <summary>
+            Names of the authors
+            </summary>
+            <returns>Names of the authors</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IClusteringPlugin.GetConfigWindow">
+            <summary>
+            Reference to the configuration Form
+            </summary>
+            <returns>Reference to the configuration Form</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IClusteringPlugin.GetInfoList">
+            <summary>
+            To get information about the plugin (for exemple, its configuration)
+            </summary>
+            <returns>List of strings with information about the plugin</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IClusteringPlugin.GetConfig">
+            <summary>
+            Reference on a Class embedding the configuration of the plugin
+            </summary>
+            <returns>Reference on a Class embedding the configuration du plugin</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IClusteringPlugin.GetProcessingTime">
+            <summary>
+            Processing time
+            </summary>
+            <returns>Processing time</returns>
+        </member>
+        <member name="T:Polytech.Clustering.Plugin.IDescriptorPlugin">
+            <summary>
+            Interface of the Descriptor Plugin
+            </summary>        
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IDescriptorPlugin.CalculateSignature(Polytech.Clustering.Plugin.APattern)">
+            <summary>
+            Compute and append a signature to a pattern 
+            <param name="toModify">Pattern to analyze and modify</param>
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IDescriptorPlugin.GetInfoList">
+            <summary>
+            Get the information about the plugin / descriptor (for exemple, its configuration)
+            </summary>
+            <returns>Information about the descriptor plugin</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IDescriptorPlugin.GetName">
+            <summary>
+            Name of the Descriptor Plugin
+            </summary>
+            <returns>Name of the Descriptor Plugin</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IDescriptorPlugin.GetAuthor">
+            <summary>
+            Author of the plugin
+            </summary>
+            <returns>Author of the plugin</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IDescriptorPlugin.GetConfig">
+            <summary>
+            To get the configuration of the plugin
+            </summary>
+            <returns>Configuration of the plugin</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IDescriptorPlugin.GetConfigWindow">
+            <summary>
+            Reference to the configuration Form
+            </summary>
+            <returns>Reference to the configuration Form</returns>
+        </member>
+        <member name="T:Polytech.Clustering.Plugin.IDocumentReaderPlugin">
+            <summary>
+            Interface for the document reader plugins
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IDocumentReaderPlugin.LoadDatabase(System.Collections.Generic.List{Polytech.Clustering.Plugin.IDescriptorPlugin},System.String)">
+            <summary>
+            Load a database in memory and compute the requested signatures at the same time
+            </summary>
+            <param name="descriptors">List of the Descriptor plugins to use</param>
+            <param name="path">Path of the input data</param>
+            <returns>The resulting dataset</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IDocumentReaderPlugin.LoadDatabase(System.Collections.Generic.List{Polytech.Clustering.Plugin.IDescriptorPlugin},System.String,System.Windows.Forms.Form,System.Delegate)">
+            <summary>
+            Load a database in memory and compute the requested signature at the same time"
+            </summary>
+            <param name="descriptors">List of the Descriptor plugins to use</param>
+            <param name="path">Path of the input data</param>
+            <param name="mainWindow">Main form</param>
+            <param name="changeState">State</param>
+            <returns>The resulting dataset</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IDocumentReaderPlugin.GetProcessingTime">
+            <summary>
+            Returns the processing time to load the dataset
+            </summary>
+            <returns>Time</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IDocumentReaderPlugin.GetLoadedDatabase">
+            <summary>
+            Returns the processed dataset
+            </summary>
+            <returns>The dataset</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IDocumentReaderPlugin.GetConfigWindow">
+            <summary>
+            Reference to the configuration windows
+            </summary>
+            <returns>the config form</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IDocumentReaderPlugin.GetConfig">
+            <summary>
+            To get the configuration of the plugin
+            </summary>
+            <returns>Configuration of the plugin</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IDocumentReaderPlugin.GetAuthor">
+            <summary>
+            Names of the authors
+            </summary>
+            <returns>Names of the authors</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.IDocumentReaderPlugin.GetName">
+            <summary>
+            Name of the Plugin
+            </summary>
+            <returns>The name of the Doc Reader Plugin </returns>
+        </member>
+        <member name="T:Polytech.Clustering.Plugin.BoundingBoxNoiseRemoval">
+            <summary>
+             Define Bounding Box Denoising functionalities
+             Same as Clustering.BoundingBoxNoiseRemoval
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.BoundingBoxNoiseRemoval.RemoveNoise(System.Drawing.Bitmap)">
+            <summary>
+            Isolate main Connected Component in a Bounding Box of a character
+            Requirement: White foreground and black background
+            </summary>
+            <param name="img">Bitmap of a character</param> 
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.BoundingBoxNoiseRemoval.RemoveCC(System.Drawing.Bitmap,System.Drawing.Rectangle)">
+            <summary>
+            Remove a specified CC in the whole image
+            </summary>
+            <param name="img">Whole image of the Character</param>
+            <param name="cc">Current RoI to consider</param>
+        </member>
+        <member name="T:Polytech.Clustering.Plugin.ImageNormalisationTools">
+            <summary>
+            Static Class with image processing tools
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ImageNormalisationTools.Binarize(System.Drawing.Bitmap)">
+            <summary>
+            Binarization of the image
+            </summary>
+            <param name="toProcess">Image to process</param>
+            <returns>Resulting image</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ImageNormalisationTools.NormalizeImageAsSquare(System.Drawing.Bitmap,System.Int32)">
+            <summary>
+            Resize  with square dimension an image
+            </summary>
+            <param name="toProcess">Image to resize</param>
+            <param name="squareDimension">Desired Size</param>
+            <returns></returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ImageNormalisationTools.ResizeImage(System.Drawing.Image,System.Int32,System.Int32)">
+            <summary>
+            Resize the image to the specified width and height.
+            </summary>
+            <param name="image">The image to resize.</param>
+            <param name="width">The width to resize to.</param>
+            <param name="height">The height to resize to.</param>
+            <returns>The resized image.</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ImageNormalisationTools.ConvertToSquareImage(System.Drawing.Bitmap)">
+            <summary>
+            Convertit une image en dimension carrée
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ImageNormalisationTools.DrawBackgroundImage(System.Drawing.Bitmap,System.Int32)">
+            <summary>
+            Draw the background of images converted in square with the mean grey value - TODO
+            </summary>
+            <param name="image">image to process</param>
+            <param name="dimension">Square size</param>
+            <returns>L'Background image</returns>
+        </member>
+        <member name="T:Polytech.Clustering.Plugin.ImageNormalisationTools.PixelData32argb">
+            <summary>
+            Structure for a pixel 32bits argb 
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ImageNormalisationTools.PixelData32argb.#ctor(System.Byte,System.Byte,System.Byte,System.Byte)">
+            <summary>
+            Structure for a pixel 32bits argb 
+            </summary>
+        </member>
+        <member name="T:Polytech.Clustering.Plugin.ImageNormalisationTools.PixelData24rgb">
+            <summary>
+            Structure for a pixel 24bits argb 
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ImageNormalisationTools.PixelData24rgb.#ctor(System.Byte,System.Byte,System.Byte)">
+            <summary>
+            Structure for a pixel 24bits argb 
+            </summary>
+        </member>
+        <member name="T:Polytech.Clustering.Plugin.ImageNormalisationTools.PixelData8">
+            <summary>
+            Structure for a pixel 8bits 
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.ImageNormalisationTools.PixelData8.#ctor(System.Byte)">
+            <summary>
+            Structure for a pixel 8bits argb 
+            </summary>
+        </member>
+    </members>
+</doc>

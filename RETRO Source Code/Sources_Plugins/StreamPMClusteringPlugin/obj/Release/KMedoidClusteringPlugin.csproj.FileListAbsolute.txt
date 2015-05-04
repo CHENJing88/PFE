@@ -1,0 +1,15 @@
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\obj\Release\Polytech.Clustering.Plugin.KMedoidClusteringPlugin.resources
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\obj\Release\KMedoidClusteringPlugin.csproj.GenerateResource.Cache
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\bin\Release\KMedoidClusteringPlugin.dll
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\bin\Release\KMedoidClusteringPlugin.pdb
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\bin\Release\Plugin.dll
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\bin\Release\AForge.Imaging.dll
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\bin\Release\AForge.dll
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\bin\Release\AForge.Math.dll
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\bin\Release\Plugin.pdb
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\bin\Release\AForge.Imaging.xml
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\bin\Release\AForge.xml
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\bin\Release\AForge.Math.xml
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\obj\Release\KMedoidClusteringPlugin.csprojResolveAssemblyReference.cache
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\obj\Release\KMedoidClusteringPlugin.dll
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\obj\Release\KMedoidClusteringPlugin.pdb

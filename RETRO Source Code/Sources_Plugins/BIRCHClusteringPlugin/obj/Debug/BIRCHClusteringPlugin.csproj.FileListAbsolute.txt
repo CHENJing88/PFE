@@ -1,0 +1,45 @@
+F:\workspace\visual\Clustering\BIRCHClusteringPlugin\bin\Debug\BIRCHClusteringPlugin.dll
+F:\workspace\visual\Clustering\BIRCHClusteringPlugin\bin\Debug\BIRCHClusteringPlugin.pdb
+F:\workspace\visual\Clustering\BIRCHClusteringPlugin\bin\Debug\Plugin.dll
+F:\workspace\visual\Clustering\BIRCHClusteringPlugin\bin\Debug\AForge.Imaging.dll
+F:\workspace\visual\Clustering\BIRCHClusteringPlugin\bin\Debug\AForge.dll
+F:\workspace\visual\Clustering\BIRCHClusteringPlugin\bin\Debug\AForge.Math.dll
+F:\workspace\visual\Clustering\BIRCHClusteringPlugin\bin\Debug\Plugin.pdb
+F:\workspace\visual\Clustering\BIRCHClusteringPlugin\bin\Debug\Plugin.xml
+F:\workspace\visual\Clustering\BIRCHClusteringPlugin\bin\Debug\AForge.Imaging.xml
+F:\workspace\visual\Clustering\BIRCHClusteringPlugin\bin\Debug\AForge.xml
+F:\workspace\visual\Clustering\BIRCHClusteringPlugin\bin\Debug\AForge.Math.xml
+F:\workspace\visual\Clustering\BIRCHClusteringPlugin\obj\Debug\BIRCHClusteringPlugin.csprojResolveAssemblyReference.cache
+F:\workspace\visual\Clustering\BIRCHClusteringPlugin\obj\Debug\Polytech.Clustering.Plugin.BIRCHClusteringPlugin.resources
+F:\workspace\visual\Clustering\BIRCHClusteringPlugin\obj\Debug\BIRCHClusteringPlugin.csproj.GenerateResource.Cache
+F:\workspace\visual\Clustering\BIRCHClusteringPlugin\obj\Debug\BIRCHClusteringPlugin.dll
+F:\workspace\visual\Clustering\BIRCHClusteringPlugin\obj\Debug\BIRCHClusteringPlugin.pdb
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\BIRCHClusteringPlugin\bin\Debug\BIRCHClusteringPlugin.dll
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\BIRCHClusteringPlugin\bin\Debug\BIRCHClusteringPlugin.pdb
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\BIRCHClusteringPlugin\bin\Debug\Plugin.dll
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\BIRCHClusteringPlugin\bin\Debug\AForge.Imaging.dll
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\BIRCHClusteringPlugin\bin\Debug\AForge.dll
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\BIRCHClusteringPlugin\bin\Debug\AForge.Math.dll
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\BIRCHClusteringPlugin\bin\Debug\Plugin.pdb
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\BIRCHClusteringPlugin\bin\Debug\Plugin.xml
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\BIRCHClusteringPlugin\bin\Debug\AForge.Imaging.xml
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\BIRCHClusteringPlugin\bin\Debug\AForge.xml
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\BIRCHClusteringPlugin\bin\Debug\AForge.Math.xml
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\BIRCHClusteringPlugin\obj\Debug\BIRCHClusteringPlugin.csprojResolveAssemblyReference.cache
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\BIRCHClusteringPlugin\obj\Debug\Polytech.Clustering.Plugin.BIRCHClusteringPlugin.resources
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\BIRCHClusteringPlugin\obj\Debug\BIRCHClusteringPlugin.csproj.GenerateResource.Cache
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\BIRCHClusteringPlugin\obj\Debug\BIRCHClusteringPlugin.dll
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\BIRCHClusteringPlugin\obj\Debug\BIRCHClusteringPlugin.pdb
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\BIRCHClusteringPlugin\bin\Debug\BIRCHClusteringPlugin.dll.CodeAnalysisLog.xml
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\BIRCHClusteringPlugin\bin\Debug\BIRCHClusteringPlugin.dll.lastcodeanalysissucceeded
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\BIRCHClusteringPlugin\bin\Debug\BIRCHClusteringPlugin.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\BIRCHClusteringPlugin\bin\Debug\BIRCHClusteringPlugin.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\BIRCHClusteringPlugin\bin\Debug\Plugin.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\BIRCHClusteringPlugin\bin\Debug\AForge.Imaging.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\BIRCHClusteringPlugin\bin\Debug\Plugin.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\BIRCHClusteringPlugin\bin\Debug\Plugin.xml
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\BIRCHClusteringPlugin\obj\Debug\Polytech.Clustering.Plugin.BIRCHClusteringPlugin.resources
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\BIRCHClusteringPlugin\obj\Debug\BIRCHClusteringPlugin.csproj.GenerateResource.Cache
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\BIRCHClusteringPlugin\obj\Debug\BIRCHClusteringPlugin.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\BIRCHClusteringPlugin\obj\Debug\BIRCHClusteringPlugin.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\BIRCHClusteringPlugin\bin\Debug\BIRCHClusteringPlugin.XML

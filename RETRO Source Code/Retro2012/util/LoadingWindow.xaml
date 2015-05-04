@@ -1,0 +1,25 @@
+﻿<Window x:Class="RetroGUI.util.LoadingWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:localUtil="clr-namespace:RetroGUI.util"
+    Title="RETRO - Loading" Height="350" Width="350"
+    AllowsTransparency="True"
+    WindowStyle="None"
+    Background="Transparent" ShowInTaskbar="False" ResizeMode="NoResize">
+  
+    <Grid>
+        <!-- Loading Spinner -->
+        <localUtil:LoadingSpinner x:Name="loadingSpinner">
+            <localUtil:LoadingSpinner.Style>
+                <Style>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding IsLoaded}" Value="True">
+                            <Setter Property="localUtil:LoadingSpinner.Visibility" Value="Collapsed"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </localUtil:LoadingSpinner.Style>
+        </localUtil:LoadingSpinner>
+    </Grid>
+  
+</Window>

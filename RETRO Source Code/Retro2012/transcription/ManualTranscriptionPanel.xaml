@@ -1,0 +1,53 @@
+﻿<UserControl x:Class="RetroGUI.transcription.ManualTranscriptionPanel"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Height="500" Width="560" Background="#E9ECFA">
+    <Grid>
+        
+        <!-- Cluster number -->
+        <Label Height="25" HorizontalAlignment="Left" Margin="14,15,0,0" VerticalAlignment="Top" Width="80">Cluster N°</Label>
+        <Label Name="clusterNumberLabel" Height="25" HorizontalAlignment="Left" Margin="93,15,0,0"  VerticalAlignment="Top" Width="75">###</Label>
+        
+        <!-- Transcription -->
+        <Label Height="25" HorizontalAlignment="Left" Margin="16,89,0,0" VerticalAlignment="Top" Width="85">Transcription:</Label>
+        <TextBox Name="clusterTranscriptionTextBox" Height="30" HorizontalAlignment="Left" Margin="107,88,0,0"  VerticalAlignment="Top" Width="80" PreviewKeyUp="ManualTranscription_Enter_KeyPressed" />
+        <Button Name="clusterNoiseButton" Height="27" HorizontalAlignment="Left" Margin="107,124,0,0" VerticalAlignment="Top" Width="80" Click="ManualTranscription_Noise_Click" >Mark as Noise</Button>
+        
+        <!-- Cluster information-->
+        <Label Height="30" Width="75" Margin="14,47,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" >Nb Shapes:</Label>
+        <Label Name="clusterShapeNumberLabel" Height="30" Width="65" Margin="93,47,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" >##</Label>
+        
+        <!-- Model -->
+        <Label Height="30" HorizontalAlignment="Left" Margin="16,194,0,0" VerticalAlignment="Top" Width="75">Model</Label>
+        <Border Margin="28,222,0,180" HorizontalAlignment="Left" Width="100" BorderThickness="1" BorderBrush="LightSteelBlue" CornerRadius="3">
+            <Image Name="clusterRepresentativeImage" HorizontalAlignment="Left" Stretch="Uniform"/>
+        </Border>
+
+        <Button Name="previousClusterButton" Height="24" HorizontalAlignment="Left" Margin="14,0,0,9"  VerticalAlignment="Bottom" Width="80" Click="ManualTranscription_Previous_Cluster_Click">&lt;&lt;</Button>
+        <Button Name="nextClusterButton" Height="24" HorizontalAlignment="Left" Margin="107,0,0,9" VerticalAlignment="Bottom" Width="80" Click="ManualTranscription_Next_Cluster_Click">&gt;&gt;</Button>
+
+
+        <Rectangle HorizontalAlignment="Left" Margin="209,12,0,13" Stroke="LightSteelBlue" Width="1" />
+        <Separator Height="9" Margin="14,0,13,39" VerticalAlignment="Bottom" />
+        
+        <!-- cluster context preview images  -->
+        <Border Height="102" Margin="225,12,10,0" VerticalAlignment="Top" BorderThickness="1" BorderBrush="LightSteelBlue" CornerRadius="3">
+            <Image Name="clusterContextImage1" Stretch="Uniform" />
+        </Border>
+                
+        <Border Height="102" Margin="226,123,9,0" VerticalAlignment="Top" BorderThickness="1" BorderBrush="LightSteelBlue" CornerRadius="3">
+            <Image Name="clusterContextImage2" Stretch="Uniform" />
+        </Border>
+
+        <Border Margin="227,234,8,164" BorderThickness="1" BorderBrush="LightSteelBlue" CornerRadius="3">
+            <Image Name="clusterContextImage3" Stretch="Uniform" />    
+        </Border>
+        
+        <Border Height="102" Margin="227,0,8,52" VerticalAlignment="Bottom" BorderThickness="1" BorderBrush="LightSteelBlue" CornerRadius="3">
+            <Image Name="clusterContextImage4" Stretch="Uniform" />    
+        </Border>
+
+        <Button Name="previousShapesButton" Height="24" Margin="227,0,231,9"  VerticalAlignment="Bottom" Click="ManualTranscription_Previous_Shapes_Click">&lt;&lt;</Button>
+        <Button Name="nextShapesButton" HorizontalAlignment="Right" Margin="0,0,138,9"  Width="80" Height="24" VerticalAlignment="Bottom" Click="ManualTranscription_Next_Shapes_Click">&gt;&gt;</Button>
+    </Grid>
+</UserControl>

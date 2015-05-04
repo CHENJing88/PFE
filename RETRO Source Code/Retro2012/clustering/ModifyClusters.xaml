@@ -1,0 +1,57 @@
+﻿<Window x:Class="RetroGUI.main.ModifyClusters" x:Name="windowModifyClusters"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ModifyClusters"  WindowStartupLocation="CenterScreen"
+        WindowState="Maximized" Closed="windowModifyClusters_Closed" ResizeMode="CanMinimize"> <!--MinWidth="900" MinHeight="650"-->
+    <Grid Name ="myGrid" Background="#E9ECFA">
+        <Border Name="secondBorder" BorderBrush="Gray" BorderThickness="1"  Height="184" VerticalAlignment="Bottom">
+            <Grid >
+                <Button Name="buttonCancel" Content="Cancel" HorizontalAlignment="Right" Width="85" Height="38" Margin="0,74,144,50" />
+                <Button Name="buttonSave" Content="Save" Margin="0,74,39,50" HorizontalAlignment="Right" Width="85" Height="38" Click="buttonSave_Click" />
+                <GroupBox Header="WORKSPACE" Margin="10,10,0,10" HorizontalAlignment="Left" Width="384">
+                    <ListBox Name ="listBoxWorkspace" Margin="2,0,-2,1">
+                        <ListBox.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <UniformGrid Columns="2" />
+                            </ItemsPanelTemplate>
+                        </ListBox.ItemsPanel>
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Border BorderBrush="LightSteelBlue" Margin="3" BorderThickness="1" CornerRadius="3">
+                                        <Border.BitmapEffect>
+                                            <DropShadowBitmapEffect Color="Black" Direction="315" ShadowDepth="5" Softness="0.25" Opacity="0.5"/>
+                                        </Border.BitmapEffect>
+
+                                        <Image Height="45" Width="45" >
+                                            <Image.Source>
+                                                <Binding Path="ShapePath" >
+                                                    <!-- RelativeSource="{RelativeSource AncestorType=BitmapImage}">-->
+                                                    <Binding.FallbackValue>
+                                                        <ImageSource>/resources/logoLI.png</ImageSource>
+                                                    </Binding.FallbackValue>
+                                                </Binding>
+                                            </Image.Source>
+
+                                            <Image.ToolTip>
+                                                <ToolTip Content="{Binding}" />
+                                            </Image.ToolTip>
+                                        </Image>
+
+                                    </Border>
+                                </Grid>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </GroupBox>
+
+            </Grid>
+        </Border>
+        <Border Name="firstBorder" BorderBrush="Gray" BorderThickness="1"  Height="Auto" Margin="0,0,0,184" >
+            <Grid Name="gridFirstBorder" Margin="1,-1,-1,1">
+            </Grid>
+        </Border>
+
+    </Grid>
+
+</Window>

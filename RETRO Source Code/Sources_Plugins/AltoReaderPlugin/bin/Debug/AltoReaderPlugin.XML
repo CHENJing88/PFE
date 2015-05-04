@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AltoReaderPlugin</name>
+    </assembly>
+    <members>
+        <member name="F:Polytech.Clustering.Plugin.AltoReaderPlugin.m_config">
+            <summary>
+            Référence vers la classe encapsulant la configuration du plugin (NOn implementé pour l'instant)
+            </summary>
+        </member>
+    </members>
+</doc>

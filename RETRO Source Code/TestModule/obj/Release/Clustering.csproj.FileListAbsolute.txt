@@ -1,0 +1,29 @@
+C:\Users\Samantha\Dropbox\DI5\PFE\RETRO\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Release\Clustering.dll
+C:\Users\Samantha\Dropbox\DI5\PFE\RETRO\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Release\Clustering.pdb
+C:\Users\Samantha\Dropbox\DI5\PFE\RETRO\RETRO 2012 - v2.3 - Sources\Clustering\obj\Release\Clustering.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Dropbox\DI5\PFE\RETRO\RETRO 2012 - v2.3 - Sources\Clustering\obj\Release\Clustering.dll
+C:\Users\Samantha\Dropbox\DI5\PFE\RETRO\RETRO 2012 - v2.3 - Sources\Clustering\obj\Release\Clustering.pdb
+C:\Users\Samantha\Dropbox\DI5\PFE\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Release\Clustering.dll
+C:\Users\Samantha\Dropbox\DI5\PFE\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Release\Clustering.pdb
+C:\Users\Samantha\Dropbox\DI5\PFE\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Release\Clustering.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Dropbox\DI5\PFE\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Release\Clustering.dll
+C:\Users\Samantha\Dropbox\DI5\PFE\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Release\Clustering.pdb
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Release\Clustering.dll
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Release\Clustering.pdb
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Release\Clustering.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Release\Clustering.dll
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Release\Clustering.pdb
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Release\Clustering.dll
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Release\Clustering.pdb
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Release\Clustering.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Release\Clustering.dll
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Release\Clustering.pdb
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Release\Clustering.dll
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Release\Clustering.pdb
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Release\Clustering.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Release\Clustering.dll
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Release\Clustering.pdb
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Release\Clustering.dll
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Release\Clustering.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Release\Clustering.dll
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Release\Clustering.pdb

@@ -1,0 +1,35 @@
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Debug\Clustering.dll
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Debug\Clustering.pdb
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Debug\Clustering.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Debug\Clustering.dll
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Debug\Clustering.pdb
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Debug\Clustering.dll
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Debug\Clustering.pdb
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Debug\Clustering.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Debug\Clustering.dll
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Debug\Clustering.pdb
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Debug\Clustering.dll
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Debug\Clustering.pdb
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Debug\Clustering.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Debug\Clustering.dll
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Debug\Clustering.pdb
+C:\Users\Samantha\Documents\DI5\pfe-clustering\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Debug\Clustering.dll
+C:\Users\Samantha\Documents\DI5\pfe-clustering\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Debug\Clustering.pdb
+C:\Users\Samantha\Documents\DI5\pfe-clustering\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Debug\Clustering.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Documents\DI5\pfe-clustering\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Debug\Clustering.dll
+C:\Users\Samantha\Documents\DI5\pfe-clustering\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Debug\Clustering.pdb
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Debug\Clustering.dll
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Debug\Clustering.pdb
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Debug\Clustering.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Debug\Clustering.dll
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Clustering\obj\Debug\Clustering.pdb
+E:\JYRAMEL\PFE_DEA_stages\an20132014\ResultsPFE2014\PFE-RETRO\RETRO Source Code\Retro2012\bin\Debug\Clustering.dll
+E:\JYRAMEL\PFE_DEA_stages\an20132014\ResultsPFE2014\PFE-RETRO\RETRO Source Code\Retro2012\bin\Debug\Clustering.pdb
+E:\JYRAMEL\PFE_DEA_stages\an20132014\ResultsPFE2014\PFE-RETRO\RETRO Source Code\Clustering\obj\Debug\Clustering.csprojResolveAssemblyReference.cache
+E:\JYRAMEL\PFE_DEA_stages\an20132014\ResultsPFE2014\PFE-RETRO\RETRO Source Code\Clustering\obj\Debug\Clustering.dll
+E:\JYRAMEL\PFE_DEA_stages\an20132014\ResultsPFE2014\PFE-RETRO\RETRO Source Code\Clustering\obj\Debug\Clustering.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Retro2012\bin\Debug\Clustering.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Retro2012\bin\Debug\Clustering.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Clustering\obj\Debug\Clustering.csprojResolveAssemblyReference.cache
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Clustering\obj\Debug\Clustering.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Clustering\obj\Debug\Clustering.pdb

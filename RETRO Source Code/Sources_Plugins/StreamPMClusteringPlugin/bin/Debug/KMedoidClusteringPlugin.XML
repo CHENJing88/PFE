@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KMedoidClusteringPlugin</name>
+    </assembly>
+    <members>
+        <member name="T:Polytech.Clustering.Plugin.StreamPMClusteringPlugin">
+            <summary>
+            Pixel Matching stream clustering Plugin 
+            </summary>        
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.StreamPMClusteringPlugin.m_db">
+            <summary>
+            Database of documents containing Patterns to cluster
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.StreamPMClusteringPlugin.m_config">
+            <summary>
+            Class that embbed the configuration of theis PM clustering plugin
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.StreamPMClusteringPlugin.m_elapsedTime">
+            <summary>
+            Processing time of the clustering
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.StreamPMClusteringPlugin.m_clustersDir">
+            <summary>
+            Path to clusters files
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.StreamPMClusteringPlugin.SetClustersDir(System.String)">
+            <summary>
+            Path to clusters Files
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.StreamPMClusteringPlugin.SetDatabase(Polytech.Clustering.Plugin.Database)">
+            <summary>
+            Database of documents containing Patterns to cluster
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.StreamPMClusteringPlugin.#ctor">
+            <summary>
+            Constructor for the Main Class of the Plugin (the Form and Iconfig object)
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.StreamPMClusteringPlugin.PerformClustering(System.Collections.Generic.List{Polytech.Clustering.Plugin.APattern},System.Boolean,System.Int32)">
+            <summary>
+            Perform clustering on the patterns in the dataset using....
+            </summary>
+            <param name="refPatterns">Representative Patterns of the desired clusters (null if none)</param>
+            <param name="updateActualClusters">Should be set to True if you want to update the actual clusters</param>
+            <param name="indexSignature">Should be set to -2 for Pixel Matching clustering</param>
+            <returns></returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.StreamPMClusteringPlugin.PerformClustering(Polytech.Clustering.Plugin.Cluster,System.Collections.Generic.List{Polytech.Clustering.Plugin.APattern},System.Boolean,System.Int32)">
+            <summary>
+            Perform clustering on the patterns into the provided cluster using ...
+            </summary>
+            <param name="clusterToProcess">Cluster containing the data (patterns) to cluster</param>
+            <param name="refPatterns">Representative Patterns of the desired clusters (null if none)</param>
+            <param name="updateActualClusters">Should be set to True if you want to update the actual clusters</param>
+            <param name="indexSignature">Should be set to -2 for Pixel Matching clustering</param>
+            <returns></returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.StreamPMClusteringPlugin.GetClosest(System.Drawing.Bitmap,System.Collections.Generic.List{Polytech.Clustering.Plugin.Cluster})">
+            <summary>
+            Return the index of the closest cluster according to pixel matching between the bitmaps (return -1 if dissimilarity > Threshold)
+            </summary>
+            <param name="image">Butmap of the pattern to use for pixel matching</param>
+            <param name="lstClusters">List of clusters to compare with</param>
+            <returns>Most similar cluster or null if no similar enough cluster has been found</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.StreamPMClusteringPlugin.preprocessing(Polytech.Clustering.Plugin.APattern)">
+            <summary>
+            Preprocessing of the Bitmap of the Pattern according to the parameters of the plugin
+            </summary>
+            <param name="pattern">pattern to preprocess before comparison</param>
+            <returns>Return the Bitmap of the Pattern to use for the Pixel Matching (according to the parameters)</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.StreamPMClusteringPlugin.ComputeSimilarity(System.Drawing.Bitmap@,System.Drawing.Bitmap@)">
+            <summary>
+            Compute dissimilarity between two binary shapes (distance).
+            May not have the same dimensions
+            </summary>
+            <param name="image1">Shape 1</param>
+            <param name="image2">Shape 2</param>
+            <returns>Dissimilary between the two shapes in [0,1]</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.StreamPMClusteringPlugin.GetName">
+            <summary>
+            Name of the plugin
+            </summary>
+            <returns>Name of the clustering method</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.StreamPMClusteringPlugin.GetAuthor">
+            <summary>
+            Name of the author of the plugin
+            </summary>
+            <returns>Name of the author of the clustering method</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.StreamPMClusteringPlugin.GetConfigWindow">
+            <summary>
+            Configuration of the clustering method
+            </summary>
+            <returns>Form that allows the clustering method</returns>        
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.StreamPMClusteringPlugin.GetInfoList">
+            <summary>
+            Ifo about the method and parameters
+            </summary>
+            <returns>list of string providing info</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.StreamPMClusteringPlugin.GetConfig">
+            <summary>
+            Object embedding the config
+            </summary>
+            <returns>config object</returns>        
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.StreamPMClusteringPlugin.GetProcessingTime">
+            <summary>
+            Duration of the clustering
+            </summary>
+            <returns>duration of the clustering</returns>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.StreamPMClusteringPlugin.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.StreamPMClusteringPlugin.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.StreamPMClusteringPlugin.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Polytech.Clustering.Plugin.StreamPMConfig">
+            <summary>
+            To store the parameters of the Pixel Matching Clustering 
+            </summary>        
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.StreamPMConfig.#ctor(System.Double,System.Boolean,System.Int32)">
+            <summary>
+            Constructor
+            </summary>        
+            To store the parameters of the Pixel Matching Clustering 
+            To decide if noise removal preprocessing should be done 
+            To decide the size (width) of the normalisation (-1 if no normalisation is needed) 
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.StreamPMConfig.GetSchema">
+            <summary>
+            XML checker
+            </summary>       
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.StreamPMConfig.DeserializeFromXml(System.String)">
+            <summary>
+            Get the parameters from file
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.StreamPMConfig.SerializeToXml(System.String)">
+            <summary>
+            Save Parameters to file
+            </summary>
+        </member>
+        <member name="P:Polytech.Clustering.Plugin.StreamPMConfig.Threshold">
+            <summary>
+            Threshold on similarity measure
+            </summary>
+        </member>
+        <member name="P:Polytech.Clustering.Plugin.StreamPMConfig.NoiseRemoval">
+            <summary>
+            To decide if noise removal preprocessing should be done 
+            </summary>
+        </member>
+        <member name="P:Polytech.Clustering.Plugin.StreamPMConfig.NormalisationSize">
+            <summary>
+            To decide the size (width) of the normalisation (-1 if no normalisation is needed) 
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,83 @@
+﻿<UserControl x:Class="RetroGUI.visualisation.ClustersPanel"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Height="400" Width="600">
+
+  <!-- Define specific UserControl.Resources to have a wrap display of the Clusters-->
+  <UserControl.Resources>
+    <Style TargetType="ListBox">
+      <!-- Swap out the default items panel with a WrapPanel so that
+     the images will be arranged with a different layout. -->
+      <Setter Property="ItemsPanel">
+        <Setter.Value>
+          <ItemsPanelTemplate>
+            <WrapPanel HorizontalAlignment="Center" />
+          </ItemsPanelTemplate>
+        </Setter.Value>
+      </Setter>
+
+      <!-- Set this attached property to 'Disabled' so that the
+     ScrollViewer in the ListBox will never show a horizontal
+     scrollbar, and the WrapPanel it contains will be constrained
+     to the width of the ScrollViewer's viewable surface. -->
+      <Setter
+        Property="ScrollViewer.HorizontalScrollBarVisibility"
+        Value="Disabled"/>
+      </Style>
+  </UserControl.Resources>
+  
+
+  <!-- GUI Definition -->
+  <Grid Name="LayoutRoot">
+
+    <!-- Clusters display -->
+
+    <ListBox Name="Cluster_listBox" Height="360"  Width="600" Background="#E9ECFA" SelectionChanged="Cluster_SelectionChanged" SelectionMode="Single" VerticalAlignment="Top">
+    
+      <ListBox.ItemTemplate>
+        <DataTemplate>
+
+          <Border BorderBrush="LightSteelBlue" Margin="3" BorderThickness="1" CornerRadius="3">
+            <Border.BitmapEffect>
+              <DropShadowBitmapEffect Color="Black" Direction="315" ShadowDepth="5" Softness="0.25" Opacity="0.5"/>
+            </Border.BitmapEffect>
+
+            <Image Height="75" Width="75">   
+              <Image.Source>
+                <Binding Path="RepresentativePath">
+                  <Binding.FallbackValue>
+                    <ImageSource>
+                      /resources/logoLI.png
+                    </ImageSource>
+                  </Binding.FallbackValue>
+                </Binding>
+              </Image.Source>
+
+              <Image.ToolTip>
+                <ToolTip Content="{Binding}" />
+              </Image.ToolTip>
+            </Image>
+
+          </Border>
+        </DataTemplate>
+      </ListBox.ItemTemplate>
+    </ListBox>
+  
+    <!-- Labelized/NotLabilized clusters filtering -->
+    <CheckBox Name="ClusterPanelLabelizedCheckBox" Height="25" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="80" IsChecked="True" Checked="ClusterPanel_ClusterSelection_CheckBoxes_Handler" Unchecked="ClusterPanel_ClusterSelection_CheckBoxes_Handler" IsEnabled="False">Labelized</CheckBox>
+    <CheckBox Name="ClusterPanelNotLabelizedCheckBox" Height="25" HorizontalAlignment="Left" Margin="82,0,0,0" VerticalAlignment="Bottom" Width="104" IsChecked="True" Checked="ClusterPanel_ClusterSelection_CheckBoxes_Handler" Unchecked="ClusterPanel_ClusterSelection_CheckBoxes_Handler" IsEnabled="False">Not Labelized</CheckBox>
+
+    <!-- Clusters sorting -->
+    <ComboBox Height="25" Margin="189,0,191,5" Name="Clusters_comboBox" VerticalAlignment="Bottom" IsEnabled="False" SelectionChanged="SortMethod_SelectionChanged" IsSynchronizedWithCurrentItem="True">
+        <ComboBoxItem Name="Clusters_comboBoxItem_1" IsSelected="True">Cluster ID (Ascendant)</ComboBoxItem>
+        <ComboBoxItem Name="Clusters_comboBoxItem_2">Cluster ID (Descendant)</ComboBoxItem>
+        <ComboBoxItem Name="Clusters_comboBoxItem_3">Nb Shapes (Ascendant)</ComboBoxItem>
+        <ComboBoxItem Name="Clusters_comboBoxItem_4">Nb Shapes (Descendant)</ComboBoxItem>
+    </ComboBox>
+
+    <!-- Next/Previous 28 group of clusters -->
+    <Button Height="25" Width="75" HorizontalAlignment="Right" Margin="0,0,81,4.52" Name="button_previous_clusters" VerticalAlignment="Bottom" Click="PreviousClusters_Click" IsEnabled="False">Previous</Button>
+    <Button Height="25" Width="75" HorizontalAlignment="Right" Margin="0,0,0,5" Name="button_next_clusters" VerticalAlignment="Bottom" Click="NextClusters_Click" IsEnabled="False" >Next</Button>
+
+    </Grid>
+</UserControl>

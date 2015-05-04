@@ -1,0 +1,57 @@
+﻿<Window x:Class="RetroGUI.main.NewProjectWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="New Project" 
+    Height="240" MinHeight="200" 
+    Width="622" MinWidth="600" 
+    Background="#E9ECFA" ResizeMode="CanMinimize">
+    
+    
+    <Grid Name="GridLayout" Margin="15,15.5,15,5.5">
+
+        <!-- Grid declaration -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0" />
+            <RowDefinition Height="Auto" MinHeight="30"/>
+            <RowDefinition Height="Auto" MinHeight="30" />
+            <RowDefinition Height="Auto" MinHeight="30" />
+            <RowDefinition Height="Auto" MinHeight="60" />
+            <RowDefinition Height="Auto" />
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" MinWidth="132" />
+            <ColumnDefinition />
+            <ColumnDefinition Width="30" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Grid properties-->
+        <Grid.Resources>
+            <Style TargetType="{x:Type TextBox}">
+                <Setter Property="Margin" Value="1" />
+            </Style>
+            <Style TargetType="{x:Type Button}">
+                <Setter Property="Margin" Value="1" />
+            </Style>
+        </Grid.Resources>
+
+        <!-- Grid elements -->
+        <Label Grid.Row="0" Grid.Column="0" Name="labelProjectName" ToolTip="Name of the project" Grid.RowSpan="2">Project Name</Label>
+        <TextBox Grid.Row="0" Grid.Column="1" Name="textBoxProjectName" Grid.RowSpan="2"/>
+
+        <Label Grid.Row="2" Grid.Column="0" x:Name="labelRetroProjectFolder" ToolTip="Retro project Folder" Content="Retro Project Folder"/>
+        <TextBox Grid.Row="2" Grid.Column="1" Name="textBoxRetroProjectFolder" />
+        <Button Grid.Row="2" Grid.Column="2" Name="buttonRetroProjectFolder" Click="buttonRetroProjectFile_Click">...</Button>
+
+        <Label Grid.Row="3" Grid.Column="0" x:Name="labelAgoraProjectFolder" ToolTip="Agora xml project file" Content="Agora / Data Folder"/>
+        <TextBox Grid.Row="3" Grid.Column="1" Name="textBoxAgoraProjectFolder" />
+        <Button Grid.Row="3" Grid.Column="2" Name="buttonAgoraProjectFolder" Click="Click_Browse_Agora">...</Button>
+
+        <CheckBox Grid.Row="4" Grid.Column="0" Height="18" Name="useThumbnailsCheckbox" Margin="10,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="105" IsEnabled="False" IsChecked="True"> Use Thumbnails</CheckBox>
+        <Label Grid.Row="4" Grid.Column="1" x:Name="label_Descriptif" Content="Select the name of the new Retro project and the associated folder&#xA;Select the folder containing the data to process&#xD;&#xA; - Use Thumbmails is deprecated - " HorizontalAlignment="Left" Height="59" Margin="10,0,0,0" VerticalAlignment="Top" Width="371"/>
+
+        <Button Grid.Row="5" Margin="0,4,70,1" HorizontalAlignment="Right" Width="93" MaxWidth="93" Click="Click_Ok" Grid.Column="1">OK</Button>
+        <Button Grid.Row="5" Grid.ColumnSpan="2" Margin="0,4,1,1" HorizontalAlignment="Right" Width="93" MaxWidth="93" Grid.Column="1" Click="Click_Cancel">Cancel</Button>
+
+    </Grid>
+</Window>

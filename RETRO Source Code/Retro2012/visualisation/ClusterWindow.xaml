@@ -1,0 +1,81 @@
+﻿<Window x:Class="RetroGUI.visualisation.ClusterWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Navigation in Cluster" Height="370" Width="600" ResizeMode="CanMinimize"
+        Background="#E9ECFA" >
+
+  <!-- Define specific UserControl.Resources to have a wrap display of the Clusters-->
+  <Window.Resources>
+    <Style TargetType="ListBox">
+      <!-- Swap out the default items panel with a WrapPanel so that
+     the images will be arranged with a different layout. -->
+      <Setter Property="ItemsPanel">
+        <Setter.Value>
+          <ItemsPanelTemplate>
+            <WrapPanel HorizontalAlignment="Center" />
+          </ItemsPanelTemplate>
+        </Setter.Value>
+      </Setter>
+
+      <!-- Set this attached property to 'Disabled' so that the
+     ScrollViewer in the ListBox will never show a horizontal
+     scrollbar, and the WrapPanel it contains will be constrained
+     to the width of the ScrollViewer's viewable surface. -->
+      <Setter
+        Property="ScrollViewer.HorizontalScrollBarVisibility"
+        Value="Disabled"/>
+    </Style>
+  </Window.Resources>
+  
+  
+    <Grid Height="330" >
+
+
+      <Label Name="label_text_clusterno" Height="30" Width="75" Margin="18,18,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" >Cluster No:</Label>
+      <Label Name="label_clusterno" Height="30" Width="65" Margin="97,18,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" >NN</Label>
+      <Label Name="label_text_nbshapes" Height="30" Width="75" Margin="18,53,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" >Nb Shapes:</Label>
+      <Label Name="label_nbshapes" Height="30" Width="65" Margin="97,53,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" >XX</Label>
+      <Label Name="label_text_label" Height="30" Width="75" Margin="18,88,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" >Label:</Label>
+      <TextBox Name="textBox_label" Height="30" Width="65" Margin="97,88,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" TextChanged="ClusterWindow_TextBox_Label_TextChange" />
+
+      <Button Name="button_previous_cluster" Height="75" Width="15" Margin="20,0,0,80" HorizontalAlignment="Left" VerticalAlignment="Bottom" IsEnabled="False">&lt;</Button>
+      <Image Name="RepresentativeImage" Height="75" Width="75" Margin="50,0,0,80" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Bottom" />
+      <Button Name="button_next_cluster" Height="75" Width="15" Margin="140,0,0,80" HorizontalAlignment="Left" VerticalAlignment="Bottom" IsEnabled="False">&gt;</Button>
+
+      <ListBox Name="Shape_listBox" Background="#E9ECFA" SelectionMode="Single" Margin="210,20,20,55">
+
+        <ListBox.ItemTemplate>
+          <DataTemplate>
+
+            <Border BorderBrush="LightSteelBlue" Margin="3" BorderThickness="1" CornerRadius="3">
+              <Border.BitmapEffect>
+                <DropShadowBitmapEffect Color="Black" Direction="315" ShadowDepth="5" Softness="0.25" Opacity="0.5"/>
+              </Border.BitmapEffect>
+
+              <Image Height="75" Width="75">
+                <Image.Source>
+                  <Binding Path="ShapePath">
+                    <Binding.FallbackValue>
+                      <ImageSource>
+                        /resources/logoLI.png
+                      </ImageSource>
+                    </Binding.FallbackValue>
+                  </Binding>
+                </Image.Source>
+                
+                <Image.ToolTip>
+                  <ToolTip Content="{Binding}" />
+                </Image.ToolTip>
+              </Image>
+
+            </Border>
+          </DataTemplate>
+        </ListBox.ItemTemplate>
+      </ListBox>
+      
+      <Button Name="button_previous_shapes" Height="25" Margin="210,0,0,19" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="75" Click="PreviousShapes_Click">Previous</Button>
+      <Button Name="button_next_shapes" Height="25" Width="75" Margin="0,0,20,19" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="NextShapes_Click">Next</Button>
+
+        <Rectangle Name="rectangle_separator" HorizontalAlignment="Left" Margin="190,5,0,5"  Stroke="DarkGray" Width="1" />
+    </Grid>
+</Window>

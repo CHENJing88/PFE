@@ -1,0 +1,61 @@
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\bin\Debug\ZernikeDescriptorPlugin.dll
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\bin\Debug\ZernikeDescriptorPlugin.pdb
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\bin\Debug\AForge.dll
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\bin\Debug\AForge.Imaging.dll
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\bin\Debug\Plugin.dll
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\bin\Debug\AForge.Math.dll
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\bin\Debug\Plugin.pdb
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\bin\Debug\Plugin.xml
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\bin\Debug\AForge.xml
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\bin\Debug\AForge.Imaging.xml
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\bin\Debug\AForge.Math.xml
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\obj\Debug\ZernikeDescriptorPlugin.csprojResolveAssemblyReference.cache
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\obj\Debug\Polytech.Clustering.Plugin.ZernikeDescriptorPlugin.resources
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\obj\Debug\ZernikeDescriptorPlugin.csproj.GenerateResource.Cache
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\obj\Debug\ZernikeDescriptorPlugin.dll
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\obj\Debug\ZernikeDescriptorPlugin.pdb
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\ZernikeDescriptorPlugin\bin\Debug\ZernikeDescriptorPlugin.dll
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\ZernikeDescriptorPlugin\bin\Debug\ZernikeDescriptorPlugin.pdb
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\ZernikeDescriptorPlugin\bin\Debug\AForge.dll
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\ZernikeDescriptorPlugin\bin\Debug\AForge.Imaging.dll
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\ZernikeDescriptorPlugin\bin\Debug\Plugin.dll
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\ZernikeDescriptorPlugin\bin\Debug\AForge.Math.dll
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\ZernikeDescriptorPlugin\bin\Debug\Plugin.pdb
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\ZernikeDescriptorPlugin\bin\Debug\Plugin.xml
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\ZernikeDescriptorPlugin\bin\Debug\AForge.xml
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\ZernikeDescriptorPlugin\bin\Debug\AForge.Imaging.xml
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\ZernikeDescriptorPlugin\bin\Debug\AForge.Math.xml
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\ZernikeDescriptorPlugin\obj\Debug\ZernikeDescriptorPlugin.csprojResolveAssemblyReference.cache
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\ZernikeDescriptorPlugin\obj\Debug\Polytech.Clustering.Plugin.ZernikeDescriptorPlugin.resources
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\ZernikeDescriptorPlugin\obj\Debug\ZernikeDescriptorPlugin.csproj.GenerateResource.Cache
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\ZernikeDescriptorPlugin\obj\Debug\ZernikeDescriptorPlugin.dll
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\ZernikeDescriptorPlugin\obj\Debug\ZernikeDescriptorPlugin.pdb
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\ZernikeDescriptorPlugin\bin\Debug\ZernikeDescriptorPlugin.dll.CodeAnalysisLog.xml
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\ZernikeDescriptorPlugin\bin\Debug\ZernikeDescriptorPlugin.dll.lastcodeanalysissucceeded
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Debug\ZernikeDescriptorPlugin.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Debug\ZernikeDescriptorPlugin.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Debug\Plugin.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Debug\Plugin.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Debug\Plugin.xml
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\obj\Debug\Polytech.Clustering.Plugin.ZernikeDescriptorPlugin.resources
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\obj\Debug\ZernikeDescriptorPlugin.csproj.GenerateResource.Cache
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\obj\Debug\ZernikeDescriptorPlugin.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\obj\Debug\ZernikeDescriptorPlugin.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Debug\ZernikeDescriptorPlugin.XML
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\obj\Debug\ZernikeDescriptorPlugin.csprojResolveAssemblyReference.cache
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\obj\Debug\Polytech.Clustering.Plugin.ZernikeDescriptorPlugin.resources
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\obj\Debug\ZernikeDescriptorPlugin.csproj.GenerateResource.Cache
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\obj\Debug\ZernikeDescriptorPlugin.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Debug\ZernikeDescriptorPlugin.XML
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Debug\ZernikeDescriptorPlugin.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Debug\ZernikeDescriptorPlugin.pdb
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Debug\AForge.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Debug\AForge.Imaging.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Debug\Plugin.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Debug\AForge.Math.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Debug\AForge.xml
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Debug\AForge.Imaging.xml
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Debug\Plugin.pdb
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Debug\Plugin.xml
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Debug\AForge.Math.xml
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\obj\Debug\ZernikeDescriptorPlugin.pdb

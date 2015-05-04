@@ -1,0 +1,35 @@
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Debug\RetroLib.dll
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Debug\RetroLib.pdb
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\RetroLib\obj\Debug\Retro.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\RetroLib\obj\Debug\RetroLib.dll
+C:\Users\Samantha\Dropbox\DI5\PFE\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\RetroLib\obj\Debug\RetroLib.pdb
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Debug\RetroLib.dll
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Debug\RetroLib.pdb
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\RetroLib\obj\Debug\Retro.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\RetroLib\obj\Debug\RetroLib.dll
+C:\Users\Samantha\Documents\DI5\SVN PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\RetroLib\obj\Debug\RetroLib.pdb
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Debug\RetroLib.dll
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Debug\RetroLib.pdb
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\RetroLib\obj\Debug\Retro.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\RetroLib\obj\Debug\RetroLib.dll
+C:\Users\Samantha\Documents\DI5\SVNPFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\RetroLib\obj\Debug\RetroLib.pdb
+C:\Users\Samantha\Documents\DI5\pfe-clustering\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Debug\RetroLib.dll
+C:\Users\Samantha\Documents\DI5\pfe-clustering\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Debug\RetroLib.pdb
+C:\Users\Samantha\Documents\DI5\pfe-clustering\trunk\Développements\RETRO 2012 - v2.3 - Sources\RetroLib\obj\Debug\Retro.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Documents\DI5\pfe-clustering\trunk\Développements\RETRO 2012 - v2.3 - Sources\RetroLib\obj\Debug\RetroLib.dll
+C:\Users\Samantha\Documents\DI5\pfe-clustering\trunk\Développements\RETRO 2012 - v2.3 - Sources\RetroLib\obj\Debug\RetroLib.pdb
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Debug\RetroLib.dll
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\Retro2012\bin\Debug\RetroLib.pdb
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\RetroLib\obj\Debug\Retro.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\RetroLib\obj\Debug\RetroLib.dll
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\RetroLib\obj\Debug\RetroLib.pdb
+E:\JYRAMEL\PFE_DEA_stages\an20132014\ResultsPFE2014\PFE-RETRO\RETRO Source Code\Retro2012\bin\Debug\RetroLib.dll
+E:\JYRAMEL\PFE_DEA_stages\an20132014\ResultsPFE2014\PFE-RETRO\RETRO Source Code\Retro2012\bin\Debug\RetroLib.pdb
+E:\JYRAMEL\PFE_DEA_stages\an20132014\ResultsPFE2014\PFE-RETRO\RETRO Source Code\RetroLib\obj\Debug\Retro.csprojResolveAssemblyReference.cache
+E:\JYRAMEL\PFE_DEA_stages\an20132014\ResultsPFE2014\PFE-RETRO\RETRO Source Code\RetroLib\obj\Debug\RetroLib.dll
+E:\JYRAMEL\PFE_DEA_stages\an20132014\ResultsPFE2014\PFE-RETRO\RETRO Source Code\RetroLib\obj\Debug\RetroLib.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Retro2012\bin\Debug\RetroLib.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Retro2012\bin\Debug\RetroLib.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\RetroLib\obj\Debug\Retro.csprojResolveAssemblyReference.cache
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\RetroLib\obj\Debug\RetroLib.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\RetroLib\obj\Debug\RetroLib.pdb

@@ -1,0 +1,31 @@
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\bin\Release\ZernikeDescriptorPlugin.dll
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\bin\Release\ZernikeDescriptorPlugin.pdb
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\obj\Release\ZernikeDescriptorPlugin.csprojResolveAssemblyReference.cache
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\obj\Release\Polytech.Clustering.Plugin.ZernikeDescriptorPlugin.resources
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\obj\Release\ZernikeDescriptorPlugin.csproj.GenerateResource.Cache
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\obj\Release\ZernikeDescriptorPlugin.dll
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\obj\Release\ZernikeDescriptorPlugin.pdb
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\bin\Release\AForge.dll
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\bin\Release\AForge.Imaging.dll
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\bin\Release\Plugin.dll
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\bin\Release\AForge.Math.dll
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\bin\Release\Plugin.pdb
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\bin\Release\AForge.xml
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\bin\Release\AForge.Imaging.xml
+F:\workspace\visual\Clustering\ZernikeDescriptorPlugin\bin\Release\AForge.Math.xml
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Release\ZernikeDescriptorPlugin.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Release\ZernikeDescriptorPlugin.pdb
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Release\AForge.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Release\AForge.Imaging.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Release\Plugin.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Release\AForge.Math.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Release\AForge.xml
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Release\AForge.Imaging.xml
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Release\Plugin.pdb
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Release\Plugin.xml
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\bin\Release\AForge.Math.xml
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\obj\Release\ZernikeDescriptorPlugin.csprojResolveAssemblyReference.cache
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\obj\Release\Polytech.Clustering.Plugin.ZernikeDescriptorPlugin.resources
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\obj\Release\ZernikeDescriptorPlugin.csproj.GenerateResource.Cache
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\obj\Release\ZernikeDescriptorPlugin.dll
+D:\documents\Visual Studio 2012\Projects\NET_RETRO_201501\RETRO Source Code\Sources_Plugins\ZernikeDescriptorPlugin\obj\Release\ZernikeDescriptorPlugin.pdb

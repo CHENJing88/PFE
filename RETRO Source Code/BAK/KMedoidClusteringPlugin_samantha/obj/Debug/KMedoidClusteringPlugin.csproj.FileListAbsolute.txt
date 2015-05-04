@@ -1,0 +1,10 @@
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\KMedoidClusteringPlugin\bin\Debug\KMedoidClusteringPlugin.exe.config
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\KMedoidClusteringPlugin\bin\Debug\KMedoidClusteringPlugin.exe
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\KMedoidClusteringPlugin\bin\Debug\KMedoidClusteringPlugin.pdb
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\KMedoidClusteringPlugin\bin\Debug\Plugins.exe
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\KMedoidClusteringPlugin\bin\Debug\Plugins.pdb
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\KMedoidClusteringPlugin\obj\Debug\KMedoidClusteringPlugin.csprojResolveAssemblyReference.cache
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\KMedoidClusteringPlugin\obj\Debug\KMedoidClusteringPlugin.Properties.Resources.resources
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\KMedoidClusteringPlugin\obj\Debug\KMedoidClusteringPlugin.csproj.GenerateResource.Cache
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\KMedoidClusteringPlugin\obj\Debug\KMedoidClusteringPlugin.exe
+C:\Users\Samantha\Documents\DI5\PFE\trunk\Développements\RETRO 2012 - v2.3 - Sources\KMedoidClusteringPlugin\obj\Debug\KMedoidClusteringPlugin.pdb

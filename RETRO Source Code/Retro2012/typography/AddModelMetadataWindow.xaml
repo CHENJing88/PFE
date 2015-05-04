@@ -1,0 +1,65 @@
+﻿<Window x:Class="RetroGUI.typography.AddModelMetadataWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Metadata" Height="620" Width="600"
+    Background="#E9ECFA" ResizeMode="CanMinimize">
+    <Grid Height="547" VerticalAlignment="Top">
+        
+        <!-- Book Metadata -->
+        <GroupBox Header="Publication Metadata" Margin="15,15,15,0" Name="bookMetadataGroupBox" Height="272" VerticalAlignment="Top" BorderBrush="Gray">
+            <Grid>
+                <!-- Author -->    
+                <Label Height="30"  Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="15,11,0,0">Author :</Label>
+                <TextBox Height="30" Margin="131,11,10,0" Name="authorTextBox" VerticalAlignment="Top" BorderBrush="LightSteelBlue" />
+                    
+                <!-- Title -->    
+                <Label Height="30"  Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="15,51,0,0" >Title :</Label>
+                <TextBox Height="30" Margin="131,51,10,0" Name="tileTextBox" VerticalAlignment="Top" BorderBrush="LightSteelBlue" />
+                  
+                <!-- Publication Site -->
+                <Label Height="30" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="15,91,0,0" ToolTip="Printing/Publication place">Place :</Label>
+                <TextBox Margin="131,91,10,0" Name="placeTextBox" Height="30" VerticalAlignment="Top" BorderBrush="LightSteelBlue" />
+                    
+                <!-- Printer -->    
+                <Label Height="30"  Width="105" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="15,0,0,87">Printer/Publisher :</Label>
+                <TextBox Height="30" Margin="131,0,10,87" Name="printerTextBox" VerticalAlignment="Bottom" BorderBrush="LightSteelBlue" />
+                    
+                <!-- Date -->    
+                <Label Height="30"  Width="100" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="15,0,0,47">Date :</Label>
+                <TextBox Height="30" Margin="131,0,10,47" Name="dateTextBox" VerticalAlignment="Bottom" BorderBrush="LightSteelBlue" />
+                    
+                 <!-- Format -->
+                <Label Height="30"  Width="100" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="15,0,0,7" ToolTip="Folding format or dimensions in mm">Format :</Label>
+                <TextBox Height="30" Margin="131,0,10,7" Name="formatTextBox" VerticalAlignment="Bottom" BorderBrush="LightSteelBlue" />
+                
+            </Grid>
+        </GroupBox>
+        
+        <!-- Copy Metadata -->
+        <GroupBox Header="Copy Metadata" Margin="15,0,15,10" Name="copyMetadataGroupBox" Height="230" VerticalAlignment="Bottom" BorderBrush="Gray" >
+            <Grid>
+                <!-- Library -->
+                <Label Height="30" HorizontalAlignment="Left" Margin="15,11,0,0" VerticalAlignment="Top" Width="100" ToolTip="Institution holding the copy">Library :</Label>
+                <TextBox Height="30" Margin="131,11,10,0" Name="libraryTextBox" VerticalAlignment="Top" BorderBrush="LightSteelBlue" />
+                
+                <!-- Pressmark -->
+                <Label Height="30" HorizontalAlignment="Left" Margin="15,51,0,0" VerticalAlignment="Top" Width="100" ToolTip="Any form of identifier used to identify the copy">Call-number :</Label>
+                <TextBox Height="30" Margin="131,51,10,0" Name="callNumberTextBox" VerticalAlignment="Top" BorderBrush="LightSteelBlue" />
+                
+                <!-- Digitalization process-->
+                <Label HorizontalAlignment="Left" Margin="15,91,0,86.04" Width="100" ToolTip="Permanent URL for the digitized book or name of the digitization project">Digitization :</Label>
+                <TextBox Height="30" Margin="131,91,10,0" Name="digitizationTextBox" VerticalAlignment="Top" BorderBrush="LightSteelBlue" />
+                
+                <!-- License -->
+                <Label Height="30" HorizontalAlignment="Left" Margin="15,0,0,47" VerticalAlignment="Bottom" Width="100">Copyright :</Label>
+                <TextBox Height="30" Margin="131,0,10,47" Name="licenseTextBox" VerticalAlignment="Bottom" BorderBrush="LightSteelBlue" />
+                
+                <!-- Cataloguer -->
+                <Label Height="30" HorizontalAlignment="Left" Margin="15,0,0,9" VerticalAlignment="Bottom" Width="115">Cataloguer's name :</Label>
+                <TextBox Height="30" Margin="131,0,10,7" Name="cataloguerTextBox" VerticalAlignment="Bottom" BorderBrush="LightSteelBlue" />
+            </Grid>
+        </GroupBox>
+        
+        <Button Height="25" HorizontalAlignment="Right" Margin="0,0,15,-26" Name="confirmButton" VerticalAlignment="Bottom" Width="120" Click="AddModelMetadata_Button_Next_Click" >Next</Button>
+    </Grid>
+</Window>

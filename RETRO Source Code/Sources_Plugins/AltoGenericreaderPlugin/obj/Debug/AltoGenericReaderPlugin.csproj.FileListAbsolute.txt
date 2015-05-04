@@ -1,0 +1,8 @@
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\AltoGenericreaderPlugin\obj\Debug\AltoReaderPlugin.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\AltoGenericreaderPlugin\obj\Debug\AltoReaderPlugin.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\AltoGenericreaderPlugin\bin\Debug\AltoReaderPlugin.XML
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\AltoGenericreaderPlugin\bin\Debug\AltoReaderPlugin.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\AltoGenericreaderPlugin\bin\Debug\AltoReaderPlugin.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\AltoGenericreaderPlugin\bin\Debug\Plugin.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\AltoGenericreaderPlugin\bin\Debug\Plugin.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\AltoGenericreaderPlugin\bin\Debug\Plugin.xml

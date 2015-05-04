@@ -1,0 +1,10 @@
+F:\workspace\visual\Clustering\DescriptorPlugin\bin\Debug\DescriptorPlugin.dll
+F:\workspace\visual\Clustering\DescriptorPlugin\bin\Debug\DescriptorPlugin.pdb
+F:\workspace\visual\Clustering\DescriptorPlugin\obj\Debug\DescriptorPlugin.dll
+F:\workspace\visual\Clustering\DescriptorPlugin\obj\Debug\DescriptorPlugin.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\DescriptorPlugin\bin\Debug\DescriptorPlugin.XML
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\DescriptorPlugin\bin\Debug\DescriptorPlugin.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\DescriptorPlugin\bin\Debug\DescriptorPlugin.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\DescriptorPlugin\obj\Debug\DescriptorPlugin.csprojResolveAssemblyReference.cache
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\DescriptorPlugin\obj\Debug\DescriptorPlugin.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\DescriptorPlugin\obj\Debug\DescriptorPlugin.pdb

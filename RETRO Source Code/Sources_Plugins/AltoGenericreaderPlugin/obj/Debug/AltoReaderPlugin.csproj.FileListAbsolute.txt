@@ -1,0 +1,38 @@
+F:\workspace\visual\Clustering\AltoReaderPlugin\bin\Debug\AltoReaderPlugin.dll
+F:\workspace\visual\Clustering\AltoReaderPlugin\bin\Debug\AltoReaderPlugin.pdb
+F:\workspace\visual\Clustering\AltoReaderPlugin\bin\Debug\AForge.dll
+F:\workspace\visual\Clustering\AltoReaderPlugin\bin\Debug\AForge.Imaging.dll
+F:\workspace\visual\Clustering\AltoReaderPlugin\bin\Debug\Plugin.dll
+F:\workspace\visual\Clustering\AltoReaderPlugin\bin\Debug\AForge.Math.dll
+F:\workspace\visual\Clustering\AltoReaderPlugin\bin\Debug\Plugin.pdb
+F:\workspace\visual\Clustering\AltoReaderPlugin\bin\Debug\Plugin.xml
+F:\workspace\visual\Clustering\AltoReaderPlugin\bin\Debug\AForge.xml
+F:\workspace\visual\Clustering\AltoReaderPlugin\bin\Debug\AForge.Imaging.xml
+F:\workspace\visual\Clustering\AltoReaderPlugin\bin\Debug\AForge.Math.xml
+F:\workspace\visual\Clustering\AltoReaderPlugin\obj\Debug\AltoReaderPlugin.csprojResolveAssemblyReference.cache
+F:\workspace\visual\Clustering\AltoReaderPlugin\obj\Debug\AltoReaderPlugin.dll
+F:\workspace\visual\Clustering\AltoReaderPlugin\obj\Debug\AltoReaderPlugin.pdb
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\AltoReaderPlugin\bin\Debug\AltoReaderPlugin.dll
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\AltoReaderPlugin\bin\Debug\AltoReaderPlugin.pdb
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\AltoReaderPlugin\bin\Debug\AForge.dll
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\AltoReaderPlugin\bin\Debug\AForge.Imaging.dll
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\AltoReaderPlugin\bin\Debug\Plugin.dll
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\AltoReaderPlugin\bin\Debug\AForge.Math.dll
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\AltoReaderPlugin\bin\Debug\Plugin.pdb
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\AltoReaderPlugin\bin\Debug\Plugin.xml
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\AltoReaderPlugin\bin\Debug\AForge.xml
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\AltoReaderPlugin\bin\Debug\AForge.Imaging.xml
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\AltoReaderPlugin\bin\Debug\AForge.Math.xml
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\AltoReaderPlugin\obj\Debug\AltoReaderPlugin.csprojResolveAssemblyReference.cache
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\AltoReaderPlugin\obj\Debug\AltoReaderPlugin.dll
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\AltoReaderPlugin\obj\Debug\AltoReaderPlugin.pdb
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\AltoReaderPlugin\bin\Debug\AltoReaderPlugin.dll.CodeAnalysisLog.xml
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\AltoReaderPlugin\bin\Debug\AltoReaderPlugin.dll.lastcodeanalysissucceeded
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\AltoReaderPlugin\bin\Debug\AltoReaderPlugin.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\AltoReaderPlugin\bin\Debug\AltoReaderPlugin.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\AltoReaderPlugin\bin\Debug\Plugin.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\AltoReaderPlugin\bin\Debug\Plugin.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\AltoReaderPlugin\bin\Debug\Plugin.xml
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\AltoReaderPlugin\obj\Debug\AltoReaderPlugin.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\AltoReaderPlugin\obj\Debug\AltoReaderPlugin.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\AltoReaderPlugin\bin\Debug\AltoReaderPlugin.XML

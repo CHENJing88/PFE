@@ -1,0 +1,12 @@
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\StreamPMClusteringPlugin\obj\Debug\Polytech.Clustering.Plugin.StreamPMClusteringPlugin.resources
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\StreamPMClusteringPlugin\obj\Debug\StreamPMClusteringPlugin.csproj.GenerateResource.Cache
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\StreamPMClusteringPlugin\obj\Debug\KMedoidClusteringPlugin.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\StreamPMClusteringPlugin\obj\Debug\KMedoidClusteringPlugin.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\StreamPMClusteringPlugin\bin\Debug\KMedoidClusteringPlugin.XML
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\StreamPMClusteringPlugin\bin\Debug\KMedoidClusteringPlugin.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\StreamPMClusteringPlugin\bin\Debug\KMedoidClusteringPlugin.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\StreamPMClusteringPlugin\bin\Debug\AForge.Imaging.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\StreamPMClusteringPlugin\bin\Debug\Plugin.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\StreamPMClusteringPlugin\bin\Debug\Plugin.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\StreamPMClusteringPlugin\bin\Debug\Plugin.xml
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\StreamPMClusteringPlugin\obj\Debug\StreamPMClusteringPlugin.csprojResolveAssemblyReference.cache

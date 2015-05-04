@@ -1,0 +1,10 @@
+﻿<Window x:Class="RetroGUI.visualisation.ClustersGlobalView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:localView="clr-namespace:RetroGUI.visualisation"
+        Title="ClustersGlobalView" Height="450.746" Width="746.269"
+        WindowStartupLocation="CenterScreen" Closing="ClustersGlobalView_Closing">
+    <Grid>
+        <localView:ClustersPanel x:Name="ClustersDisplay" Margin="0,10,10,5.254"/>
+    </Grid>
+</Window>

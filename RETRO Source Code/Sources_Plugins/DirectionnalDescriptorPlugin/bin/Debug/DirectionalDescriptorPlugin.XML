@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DirectionalDescriptorPlugin</name>
+    </assembly>
+    <members>
+        <member name="F:Polytech.Clustering.Plugin.DirectionalDescriptorPlugin.m_config">
+            <summary>
+            Référence vers la classe de configuration du plugin
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.DirectionalDescriptorPlugin.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.DirectionalDescriptorPlugin.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.DirectionalDescriptorPlugin.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.DirectionnalSignature.m_blackPixels">
+            <summary>
+            Va définir le nombre de pixels noirs dans une direction données
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.DirectionnalSignature.SignatureSum(Polytech.Clustering.Plugin.ASignature)">
+            <summary>
+            Liste des caractéristiques de la signature normalisées
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.DirectionnalSignature.AddFeature(System.Object)">
+            <summary>
+            "featureToAdd" doit être de type double
+            </summary>
+            <param name="featureToAdd"></param>
+        </member>
+        <member name="T:Polytech.Clustering.Plugin.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Polytech.Clustering.Plugin.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Polytech.Clustering.Plugin.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.DirectionnalConfig.m_maxOrder">
+            <summary>
+            Nombre maximum de CFEntries pouvant être contenues dans un noeud non feuille
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.DirectionnalConfig.m_squareHeight">
+            <summary>
+            Maximum de CFENtries pouvant être contenues dans un noeud feuille
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.DirectionnalConfig.m_squareWidth">
+            <summary>
+            Seuil à appliquer pour la fusion des CFEntries
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,319 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BIRCHClusteringPlugin</name>
+    </assembly>
+    <members>
+        <member name="F:Polytech.Clustering.Plugin.BIRCHClusteringPlugin.m_db">
+            <summary>
+            Référence vers la base de données à partitionner
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.BIRCHClusteringPlugin.m_config">
+            <summary>
+            Référence vers la classe encapsulant la configuration du plugin
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.BIRCHClusteringPlugin.m_elapsedTime">
+            <summary>
+            Temps de traitement de la méthode de clustering
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.BIRCHClusteringPlugin.m_lastTree">
+            <summary>
+            Référence vers le dernier CFTree créé
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.BIRCHClusteringPlugin.m_results">
+            <summary>
+            Liste des clusters résultants de l'opération
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.BIRCHClusteringPlugin.PerformClustering(Polytech.Clustering.Plugin.Cluster,System.Collections.Generic.List{Polytech.Clustering.Plugin.APattern},System.Boolean,System.Int32)">
+            <summary>
+            Effectue une opération de clustering sur le cluster passé en paramètre
+            </summary>
+            <param name="cluster"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.BIRCHClusteringPlugin.okButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Action à effectuer sur clique du bouton "ok"
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.BIRCHConfig.m_maxEntriesInternal">
+            <summary>
+            Nombre maximum de CFEntries pouvant être contenues dans un noeud non feuille
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.BIRCHConfig.m_maxEntriesLeaf">
+            <summary>
+            Maximum de CFENtries pouvant être contenues dans un noeud feuille
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.BIRCHConfig.m_threshold">
+            <summary>
+            Seuil à appliquer pour la fusion des CFEntries
+            </summary>
+        </member>
+        <member name="T:Polytech.Clustering.Plugin.CFEntry">
+            <summary>
+            Cette classe représente une entrée contenue dans un noeud du CFTree
+            Chaque CFEntry correspond à un résumé d'un ou plusieurs clusters
+            CF = {N, LS, SS} avec N le nombre d'éléments d'un (ou plusieurs) cluster(s), LS le centroid et SS la somme au carré des données
+            Pour plus d'informations se référer à l'article de ZHang, Ramakrishnan et Livny intitulé "BIRCH: A New Data Clustering ALgorithm and Its application"
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.CFEntry.m_nbPoints">
+            <summary>
+            Nombre d'éléments contenus dans les sous-clusters représentés par la CFEntry
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.CFEntry.m_linearSumSignatures">
+            <summary>
+            Somme linéaire des caractéristiques de m_nbPoints représentés par la CFEntry, enregistré sous la forme d'une liste de ASignature
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.CFEntry.m_squareSum">
+            <summary>
+            Somme des carrés des points de la base de données
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.CFEntry.m_childNode">
+            <summary>
+            Référence vers le noeud fils de l'entrée. Null si la CFEntry est contenue dans un noeud feuille
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.CFEntry.m_containerNode">
+            <summary>
+            Référence vers le noeud contenant cette CFEntry
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.CFEntry.m_cluster">
+            <summary>
+            Référence vers le cluster contenant les élements regroupés dans la CFEntry
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.CFEntry.#ctor(Polytech.Clustering.Plugin.Node)">
+            <summary>
+            Instancie un CFENtry en prenant en compte un noeud fils
+            </summary>
+            <param name="node"></param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.CFEntry.#ctor(Polytech.Clustering.Plugin.APattern)">
+            <summary>
+            Instancie un CFENtry ne contenant qu'un seul pattern
+            </summary>
+            <param name="pattern">Le pattern contenu dans la CFEntry</param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.CFEntry.AddEntry(Polytech.Clustering.Plugin.CFEntry)">
+            <summary>
+            Permet d'ajouter les informations d'une CFEntry à une autre
+            </summary>
+            <param name="ent">La CFEntry à ajouter</param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.CFEntry.CentroidManhattanDistance(Polytech.Clustering.Plugin.CFEntry)">
+            <summary>
+            Calcul la distance euclidienne entre les centroïdes de de this et une autre CFEntry
+            </summary>
+            <param name="entry2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.CFEntry.CentroidEuclidianDistance(Polytech.Clustering.Plugin.CFEntry)">
+            <summary>
+            Calcul la distance euclidienne entre les centroïdes de la CFEntry courant et "entry2"
+            </summary>
+            <param name="entry2">La CFEntry avec laquelle calculer la distance</param>
+            <returns>LA distance calculée par la fonction</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.CFEntry.Radius(Polytech.Clustering.Plugin.CFEntry)">
+            <summary>
+            Calcul le rayon du cluster dans le cas où l'on intégre la CFEntry "toInsert"
+            </summary>
+            <param name="toInsert">CFEntry qui est hypothétiquement à insérer</param>
+            <returns>Le rayon du cluster en prenant en compte la nouvelle CFEntry</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.CFEntry.Radius">
+            <summary>
+            Rayon d'une CFentry. Il s'agit de la somme des différences entre les éléments du cluster et le centroïde. 
+            </summary>
+            <returns>Le rayon du périmètre</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.CFEntry.Diameter">
+            <summary>
+            Retourne le diamètre d'une CFEntry. La diamètre correspond à la somme des différences entre chaque élément d'un cluster
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.CFEntry.RemovePattern(Polytech.Clustering.Plugin.APattern)">
+            <summary>
+            Enléve un pattern de la CFEntry. Met à jour les informations SS, LS
+            </summary>
+            <param name="toRemove">Le pattern à retirer</param>
+        </member>
+        <member name="T:Polytech.Clustering.Plugin.CFTree">
+            <summary>
+            Classe représentant un CFTree de la méthode BIRCH
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.CFTree.m_root">
+            <summary>
+            Référence vers la racine du CFTree
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.CFTree.m_firstLeaf">
+            <summary>
+            Référence vers les première feuille du CFTree
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.CFTree.m_threshold">
+            <summary>
+            Le seuil à utiliser pour la fusion des CFEntries
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.CFTree.m_maxInternalNodeEntries">
+            <summary>
+            Nombre maximal d'entrées pouvant être contenues dans un noeud
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.CFTree.m_maxLeafEntries">
+            <summary>
+            Nombre maximal d'entrées pouvant être contenues dans une feuille
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.CFTree.m_distance">
+            <summary>
+            Le type de distance à calculer
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.CFTree.#ctor(System.Int32,System.Int32,Polytech.Clustering.Plugin.CFTree.DistanceType,System.Double)">
+            <summary>
+            Constructeur particulier d'un objet de CFTree
+            </summary>
+            <param name="maxInternalNodeEntries">Nombre maximal de CFEntries qu'un noeud non feuille peut accueillir</param>
+            <param name="maxLeafEntries">Nombre maximal de CFEntries qu'un noeud feuille peut accueillir</param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.CFTree.ComputeNewThreshold">
+            <summary>
+            Calcule la valeur du nouveau seuil pour la construction d'un arbre.
+            Heuristique utilisé : valeur moyenne des distances entre les CFEntries les plus proches pour chaque noeud feuille
+            </summary>
+            <returns>Le nouveau seuil</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.CFTree.Rebuild(System.Double)">
+            <summary>
+            Construit, à partir d'un abre existant, une nouvelle structure utilisant le seuil indiqué en paramètre
+            </summary>
+            <param name="newThreshold">Nouveau seuil à utiliser pour la construction de l'arbre</param>
+            <returns></returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.CFTree.MovePattern(Polytech.Clustering.Plugin.APattern,Polytech.Clustering.Plugin.Cluster,Polytech.Clustering.Plugin.Cluster)">
+            <summary>
+            Déplace un pattern d'une CFEntry à une autre
+            </summary>
+            <param name="toMove">Le pattern à déplacer</param>
+            <param name="source">Le cluster contenant le patter à déplacer</param>
+            <param name="destination">Le cluster censé accueillir le patter à déplacer</param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.CFTree.GetCFEntry(Polytech.Clustering.Plugin.Cluster)">
+            <summary>
+            Renvoie une référence vers la CFEntry accueillant un cluster donné
+            </summary>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.CFTree.InsertEntry(Polytech.Clustering.Plugin.CFEntry)">
+            <summary>
+            Ajoute une entrée contenant un ou plusieurs patterns
+            </summary>
+            <param name="newEntry">L'entrée à ajouter</param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.CFTree.GetClusters">
+            <summary>
+            Retourne l'integralité des clusters constitués par la méthode.
+            </summary>
+            <returns>La liste des clusters</returns>
+        </member>
+        <member name="T:Polytech.Clustering.Plugin.CFTree.DistanceType">
+            <summary>
+            Enumération indiquant les fonctions distance pouvant être utilisées
+            </summary>
+        </member>
+        <member name="T:Polytech.Clustering.Plugin.Node">
+            <summary>
+            Représente un noeud (feuille ou non) d'un CFTree
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.Node.m_entries">
+            <summary>
+            La liste des CFEntries contenues dans le noeud
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.Node.m_parentTree">
+            <summary>
+            Référence vers l'arbre parent, permet de récupérer les informations relatives à la construction de l'arbre (distance à utiliser, nombre max d'entrées/noeud...)
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.Node.m_parentEntry">
+            <summary>
+            Pointeur vers la CFEntry parent
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.Node.m_nextLeaf">
+            <summary>
+            Référence sur la feuille suivante dans l'arbre, utilisé uniquement dans le cas d'un noeud feuille
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.Node.m_prevLeaf">
+            <summary>
+            Référence sur la feuille précédente de l'arbre, utilisé uniquement dans le cas d'un noeud feuille
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Node.ClosestEntries">
+            <summary>
+            Retourne le couple de CFEntries les plus proches (la métrique utilisée est celle configurée dans CFTree)
+            </summary>
+            <returns>Le couple des CFEntries les plus proches</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Node.FarthestEntries">
+            <summary>
+            Retourne le couple de CFEntries le plus distant (la métrique utilisée est celle configurée dans CFTree)
+            </summary>
+            <returns>Le couple des CFEntries les plus distants</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Node.InsertEntry(Polytech.Clustering.Plugin.CFEntry)">
+            <summary>
+            Version de InsertEntry dans laquelle la division de noeud se fait au niveau concerné
+            </summary>
+            <param name="toInsert"></param>
+            <returns>Liste d'entrées nouvellement créés dans le cas d'une séparation</returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Node.Split">
+            <summary>
+            Divise un noeud en deux, renvoie des CFEntries pointant vers les noeuds créés
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Node.DistributeEntries(Polytech.Clustering.Plugin.Node,Polytech.Clustering.Plugin.Node,System.Collections.Generic.List{Polytech.Clustering.Plugin.CFEntry})">
+            <summary>
+            Permet de redistribuer les CFEntries d'un noeud dans deux nouveaux noeuds.
+            Attention : Les CFEntries de la liste "farthestEntries" ne sont pas ajoutées !
+            </summary>
+            <param name="node1">Premier noeud à remplir</param>
+            <param name="node2">Second noeud à remplir</param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.Node.DistributeEntries(Polytech.Clustering.Plugin.Node,Polytech.Clustering.Plugin.Node,System.Collections.Generic.List{Polytech.Clustering.Plugin.CFEntry},Polytech.Clustering.Plugin.CFEntry,Polytech.Clustering.Plugin.CFEntry)">
+            <summary>
+            Permet de redistribuer les CFEntries d'un noeud dans deux nouveaux noeuds.
+            Attention : Les CFEntries de la liste "farthestEntries" ne sont pas ajoutées !
+            </summary>
+            <param name="node1">Premier noeud à remplir</param>
+            <param name="node2">Second noeud à remplir</param>
+            <param name="farthestEntries">Liste des entrées les plus éloignées (déjà contenues dans les noeuds)</param>
+            <param name="parent1">Parent du noeud 1 à mettre à jour</param>
+            <param name="parent2">Parent du noeud 2 à mettre à jour</param>
+        </member>
+    </members>
+</doc>

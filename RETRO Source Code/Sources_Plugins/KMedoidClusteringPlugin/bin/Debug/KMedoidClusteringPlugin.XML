@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KMedoidClusteringPlugin</name>
+    </assembly>
+    <members>
+        <member name="M:Polytech.Clustering.Plugin.KMedoidClusteringPlugin.PerformClustering(Polytech.Clustering.Plugin.Cluster,System.Collections.Generic.List{Polytech.Clustering.Plugin.APattern},System.Boolean,System.Int32)">
+            <summary>
+            Effectue le clustering du cluster passé en paramètre
+            </summary>
+            <param name="clusterToProcess">Le cluster sur lequel appliquer le clustering</param>
+            <param name="refPatterns">Les éventuels patterns de référence pour l'initialisation de l'algorithme</param>
+            <param name="updateActualClusters"></param>
+            <param name="indexSignature">Index de la signature à utiliser pour effectuer le clustering (-1 si non renseigné)</param>
+            <returns></returns>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.KMedoidClusteringPlugin.GetClosest(System.Collections.Generic.List{Polytech.Clustering.Plugin.APattern},Polytech.Clustering.Plugin.APattern,System.Int32)">
+            <summary>
+            Renvoie l'index du pattern de la liste "listMedoids" le plus proche au sens de la distance euclidienne
+            </summary>
+            <returns>Index du pattern le plus proche</returns>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.KMedoidClusteringPlugin.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.KMedoidClusteringPlugin.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Polytech.Clustering.Plugin.KMedoidClusteringPlugin.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Polytech.Clustering.Plugin.KMedoidConfig.m_nbClusters">
+            <summary>
+            Le nombre de clusters à constituer
+            </summary>
+        </member>
+    </members>
+</doc>

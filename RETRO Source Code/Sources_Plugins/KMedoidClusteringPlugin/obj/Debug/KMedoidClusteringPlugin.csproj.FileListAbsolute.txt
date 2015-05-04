@@ -1,0 +1,61 @@
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\bin\Debug\KMedoidClusteringPlugin.dll
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\bin\Debug\KMedoidClusteringPlugin.pdb
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\bin\Debug\Plugin.dll
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\bin\Debug\AForge.Imaging.dll
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\bin\Debug\AForge.dll
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\bin\Debug\AForge.Math.dll
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\bin\Debug\Plugin.pdb
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\bin\Debug\Plugin.xml
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\bin\Debug\AForge.Imaging.xml
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\bin\Debug\AForge.xml
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\bin\Debug\AForge.Math.xml
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\obj\Debug\KMedoidClusteringPlugin.csprojResolveAssemblyReference.cache
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\obj\Debug\Polytech.Clustering.Plugin.KMedoidClusteringPlugin.resources
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\obj\Debug\KMedoidClusteringPlugin.csproj.GenerateResource.Cache
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\obj\Debug\KMedoidClusteringPlugin.dll
+F:\workspace\visual\Clustering\KMedoidClusteringPlugin\obj\Debug\KMedoidClusteringPlugin.pdb
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\bin\Debug\KMedoidClusteringPlugin.dll
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\bin\Debug\KMedoidClusteringPlugin.pdb
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\bin\Debug\Plugin.dll
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\bin\Debug\AForge.Imaging.dll
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\bin\Debug\AForge.dll
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\bin\Debug\AForge.Math.dll
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\bin\Debug\Plugin.pdb
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\bin\Debug\Plugin.xml
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\bin\Debug\AForge.Imaging.xml
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\bin\Debug\AForge.xml
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\bin\Debug\AForge.Math.xml
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\obj\Debug\KMedoidClusteringPlugin.csprojResolveAssemblyReference.cache
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\obj\Debug\Polytech.Clustering.Plugin.KMedoidClusteringPlugin.resources
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\obj\Debug\KMedoidClusteringPlugin.csproj.GenerateResource.Cache
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\obj\Debug\KMedoidClusteringPlugin.dll
+C:\Dropbox\DI5\PFE\PFE 2012_2013\Ludovic\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\obj\Debug\KMedoidClusteringPlugin.pdb
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\bin\Debug\KMedoidClusteringPlugin.dll
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\bin\Debug\KMedoidClusteringPlugin.pdb
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\bin\Debug\Plugin.dll
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\bin\Debug\AForge.Imaging.dll
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\bin\Debug\AForge.dll
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\bin\Debug\AForge.Math.dll
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\bin\Debug\Plugin.pdb
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\bin\Debug\Plugin.xml
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\bin\Debug\AForge.Imaging.xml
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\bin\Debug\AForge.xml
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\bin\Debug\AForge.Math.xml
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\obj\Debug\KMedoidClusteringPlugin.csprojResolveAssemblyReference.cache
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\obj\Debug\Polytech.Clustering.Plugin.KMedoidClusteringPlugin.resources
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\obj\Debug\KMedoidClusteringPlugin.csproj.GenerateResource.Cache
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\obj\Debug\KMedoidClusteringPlugin.dll
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\obj\Debug\KMedoidClusteringPlugin.pdb
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\bin\Debug\KMedoidClusteringPlugin.dll.CodeAnalysisLog.xml
+D:\Enseignements\DI\DI5\PFE - DI5\Ludovic_Esperce\PFE2012_RAPPORT18_ESPERCE\Executable_Clustering_post_pfe\Clustering\KMedoidClusteringPlugin\bin\Debug\KMedoidClusteringPlugin.dll.lastcodeanalysissucceeded
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\KMedoidClusteringPlugin\bin\Debug\KMedoidClusteringPlugin.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\KMedoidClusteringPlugin\bin\Debug\KMedoidClusteringPlugin.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\KMedoidClusteringPlugin\bin\Debug\Plugin.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\KMedoidClusteringPlugin\bin\Debug\Plugin.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\KMedoidClusteringPlugin\bin\Debug\Plugin.xml
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\KMedoidClusteringPlugin\obj\Debug\Polytech.Clustering.Plugin.KMedoidClusteringPlugin.resources
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\KMedoidClusteringPlugin\obj\Debug\KMedoidClusteringPlugin.csproj.GenerateResource.Cache
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\KMedoidClusteringPlugin\obj\Debug\KMedoidClusteringPlugin.dll
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\KMedoidClusteringPlugin\obj\Debug\KMedoidClusteringPlugin.pdb
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\KMedoidClusteringPlugin\bin\Debug\KMedoidClusteringPlugin.XML
+E:\JYRAMEL\DEV\NET_RETRO_2014\RETRO Source Code\Sources_Plugins\KMedoidClusteringPlugin\bin\Debug\AForge.Imaging.dll

@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RetroGUI.App" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.clustering.ClusteringPanel" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAFCAAAIAAAsABACRJSSACQCAAQUAAAAAAIAAAA=</HashCode>
+      <FileName>clustering\ClusteringPanel.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.clustering.TemplateMatchingConfiguration" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAEAAAAIggAAIAAQAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>clustering\TemplateMatchingConfiguration.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.main.ModifyClusters" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAABAAiAAAAAQAAEAQAAAAACQAAU=</HashCode>
+      <FileName>clustering\ModifyClusters.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.main.SelectClustersToModify" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAgAAAEIBAAAAYAAABAAAAAAA=</HashCode>
+      <FileName>clustering\SelectClustersToModify.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.main.AboutWindow" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>main\AboutWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.main.MainWindow" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIwAYIAAAhAAEAABAAKgQMAAgQECAAAACAEhAVMMAA=</HashCode>
+      <FileName>main\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.main.NewProjectWindow" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAACCCAIAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>main\NewProjectWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.main.PropertyGridControl" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAhAAAAAAQAAAAEAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>main\PropertyGridControl.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.main.PropertyItemControl" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAgAAAAAAACACCCAAAAAAAAACAAAABAAQAABQAAA=</HashCode>
+      <FileName>main\PropertyItemControl.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.main.DescriptionEventArgs" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>main\PropertyItemControl.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.export.ExportEoCTranscriptionPanel" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>export\ExportEoCTranscriptionPanel.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.export.ExportEoCTranscriptionTool" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>export\ExportEoCTranscriptionTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.Properties.Resources" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.Properties.Settings" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.transcription.ManualTranscriptionPanel" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAMQAACAAAAAAAAAAIQAAAAACAQAAAgABCIBAAAAg=</HashCode>
+      <FileName>transcription\ManualTranscriptionPanel.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.typography.AddModelDataWindow" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAAAQIAUCAAGAEAAgAggMCAhQAQAAAAAAgCACAAAA=</HashCode>
+      <FileName>typography\AddModelDataWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.typography.AddModelMetadataWindow" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>typography\AddModelMetadataWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.typography.AddModelWindow" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAYAAABAIAAAAgAAgEgCQEAAABAAAABAAACRAAQE=</HashCode>
+      <FileName>typography\AddModelWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.typography.BodyHeightManager" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>typography\BodyHeightManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.typography.BodyHeightWindow" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KAAAAAEAAAARIAAQighABKIAAIIAAEAVIUAAAAEAQAA=</HashCode>
+      <FileName>typography\BodyHeightWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.typography.ModelMetaData" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIAAACEAAQAQQwAAIQAgBAAAEAAAAEYACAEAAAAyAA=</HashCode>
+      <FileName>typography\ModelMetaData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.util.SortbyIdAsc" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>util\ComparisonTools.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RetroGUI.util.SortbyIdDesc" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>util\ComparisonTools.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RetroGUI.util.SortbyShapeNumberAsc" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>util\ComparisonTools.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RetroGUI.util.SortbyShapeNumberDesc" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>util\ComparisonTools.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RetroGUI.util.LoadingSpinner" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAIAAAAEAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>util\LoadingSpinner.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.util.LoadingWindow" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>util\LoadingWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.util.RecentFileList" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAggARAAAACJQKAAEARgAAAAAQRHEKAAAAAAAAABA=</HashCode>
+      <FileName>util\RecentFileList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.util.Scripts" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>util\Scripts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.util.ToastWindow" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>util\ToastWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.util.ImagePathConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>util\XAMLValueConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RetroGUI.util.FitCanvasConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>util\XAMLValueConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RetroGUI.visualisation.ClusteringResultView" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACgAgAAQAAAADkAAAAAAAAwIAgABgABACCADAAQBAAQ=</HashCode>
+      <FileName>visualisation\ClusteringResultView.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.visualisation.ClustersGlobalView" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAYAAAAAAAAAAAAAgAQEAAA=</HashCode>
+      <FileName>visualisation\ClustersGlobalView.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.visualisation.ClustersPanel" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RCAAgAAAACAABAEAAAAAAAQIAgABAAIAICAAIAQBAAQ=</HashCode>
+      <FileName>visualisation\ClustersPanel.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.visualisation.ClusterWindow" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACEBQAAAAAAIAgAAAAAoAJIAAAAAAAgAAAAAAAJAAA=</HashCode>
+      <FileName>visualisation\ClusterWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.visualisation.DisplayDetailsClusterForModification" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAEBQjACAAAAAIEAAAAQIDAAIAyISAlgBBAAgIBAAA=</HashCode>
+      <FileName>visualisation\DisplayDetailsClusterForModification.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.visualisation.EoCWindow" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAEAAAAAAAAAAAAAAAggIAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>visualisation\EoCWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.visualisation.IllustrationWindow" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAACAACAAAACAAYAAAAIAAAAAAAAgAAAAEAABAIAI=</HashCode>
+      <FileName>visualisation\IllustrationWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.visualisation.InformationClusterWindow" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAEhQgAAAAgAAgAAAAAAARAAAABAAAgACAAAAABAAQ=</HashCode>
+      <FileName>visualisation\InformationClusterWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RetroGUI.visualisation.PageWindow" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAACA6IAAICCAABEIEAAgXgARACggGBEBABKCAAAM=</HashCode>
+      <FileName>visualisation\PageWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

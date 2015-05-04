@@ -1,4 +1,4 @@
-Polytech'Tours 2014-2015 Projet fin d'étude
+Projet fin d'étude - Polytech'Tours 2014-2015 
 ============================================
 Clustering interactif d'éléments de contenu(extraits de documents)
 ----------------------------------------------------------------------

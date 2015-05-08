@@ -8,6 +8,8 @@ Clustering interactif d'éléments de contenu(extraits de documents)
 
 - Retro2014-executable: la version deploy
 
+- Retro2014 Test recources
+
 - Rapport
 
 - RETRO Source Code

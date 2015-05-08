@@ -6,7 +6,7 @@ Clustering interactif d'éléments de contenu(extraits de documents)
 
 - RETRO User Guide
 
-- Retro2014-executable: la version deploy
+- Retro2014-executable: la version deploie
 
 - Retro2014-test resources: les resources de projet Retro et les modèles de l'apprentissage
 
@@ -14,5 +14,5 @@ Clustering interactif d'éléments de contenu(extraits de documents)
 
 - RETRO Source Code
 
-- Demo de l'utlisation de Retro2014
+- Demo de l'utlisation de Retro2014: https://www.youtube.com/watch?v=G-1lC3VK5y0
 

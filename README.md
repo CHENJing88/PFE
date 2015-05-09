@@ -12,6 +12,8 @@ Clustering interactif d'éléments de contenu(extraits de documents)
 
 - Rapport
 
+- Document d'études
+
 - RETRO Source Code
 
 - Demo de l'utlisation de Retro2014: https://www.youtube.com/watch?v=G-1lC3VK5y0

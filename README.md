@@ -5,12 +5,16 @@ Clustering interactif d'éléments de contenu(extraits de documents)
 - RETRO Developer's Guide
 
 - RETRO User Guide
+-
+- Retro2014 Help document: dyoxigen doc
 
 - Retro2014-executable: la version deploie
 
 - Retro2014-test resources: les resources de projet Retro et les modèles de l'apprentissage
 
-- Rapport
+- Rapport finale
+
+- Cahier de spécification
 
 - Document d'études
 

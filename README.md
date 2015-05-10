@@ -16,6 +16,8 @@ Clustering interactif d'éléments de contenu(extraits de documents)
 
 - Cahier de spécification
 
+- Soutenance PFE: slide de soutenance
+
 - Document d'études
 
 - RETRO Source Code

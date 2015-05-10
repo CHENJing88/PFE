@@ -320,12 +320,13 @@ namespace Retro.ViewModel
             /// </summary>
             public String DiscriptorSignature { get; set; }
 
-            public AnalyseItem(String id, int nbPattern, String label, double avgSign, String discripSign)
+            //public AnalyseItem(String id, int nbPattern, String label, double avgSign, String discripSign)
+            public AnalyseItem(String id, int nbPattern, String label, String discripSign)
             {
                 this.Id = id;
                 this.NbPatterns = nbPattern;
                 this.Label = label;
-                this.AverageSignature = avgSign;
+                //this.AverageSignature = avgSign;
                 this.DiscriptorSignature = discripSign;
             }
 
@@ -342,7 +343,7 @@ namespace Retro.ViewModel
                 ClusterCurrent.Id,
                 ClusterCurrent.NbPatterns,
                 (ClusterCurrent.LabelList.Count != 0) ? ClusterCurrent.LabelList.ElementAt(0) : "[" + ClusterCurrent.Id + "]",
-                AnalyseMethod.AverageClusterSignature(),
+                //AnalyseMethod.AverageClusterSignature(),
                 AnalyseMethod.DescriptorSignature
             ));
 
@@ -389,8 +390,8 @@ namespace Retro.ViewModel
         public void LoadPatternInfo()
         {
             //PatternAnalyseData = new ObservableCollection<PatternItem>();
-            Parallel.For(0,mapInfoList.Count,i=>
-                //(int i = 0; i < mapInfoList.Count; i++)
+            //Parallel.For(0,mapInfoList.Count,i=>
+            for(int i = 0; i < mapInfoList.Count; i++)
             {
                 PatternAnalyseData.Add(new PatternItem(
                    i.ToString(),
@@ -399,7 +400,7 @@ namespace Retro.ViewModel
                    this.ClusterCurrent.Patterns[i]
                ))
                ;
-            });
+            }
             
            // return PatternAnalyseData;
         }

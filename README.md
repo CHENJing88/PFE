@@ -23,7 +23,8 @@ Clustering interactif d'éléments de contenu(extraits de documents)
 - RETRO Source Code
 
 - Demo de l'utlisation de Retro2014: https://www.youtube.com/watch?v=G-1lC3VK5y0
-#
+
+===========================================================
 Copyright (C) 2015 Jing CHEN dianachenfr@gmail.com
 
 Polytech Tours, 37200 Tours, France.
